@@ -4,11 +4,13 @@ from typing import TYPE_CHECKING, Any, Union
 import numpy as np
 import requests
 from PIL import Image
+import json
 
 if TYPE_CHECKING:
     from .custom_types import Cv2Image
-    from .georeference import Georeference
-    from .mask import Mask
+
+from .georeference import Georeference
+from .mask import Mask
 
 # Constants
 AUTO = 0
@@ -85,25 +87,78 @@ class MapSheet:
     - Getting the image (since it's online and not stored in the class)
     """
 
-    title: str
+    id: str
     _image_endpoint: str
-    _mask: Union["Mask", None]
+    _mask: "Mask"
     _georeference: Union["Georeference", None]
-    _metadata: dict[str, Any]
+    metadata: dict[str, Any]
 
-    def __init__(self, title: str, image_endpoint: str) -> None:
-        self.title = title
+    def __init__(self, image_endpoint: str) -> None:
+        self.id = "Untitled MapSheet"
         self._image_endpoint = image_endpoint
-        self._metadata = {}
+        self.metadata = {}
+        self._georeference = None
+        self._mask = Mask.full_image(image_endpoint)
 
     @classmethod
-    def from_json(cls, json_data: str) -> "MapSheet":
+    def from_annotation(cls, annotation: dict[str, Any]) -> "MapSheet":
         """Load the IIIF mapsheet data from its json annotation file"""
-        ...  # TODO
+        endpoint = annotation["target"]["service"][0]["@id"]
+        self = cls(endpoint)
+        self.id = annotation["id"]
+        self._mask = Mask.from_svg_selector(annotation["target"]["selector"])
+        if not annotation["body"]:
+            self._georeference = None
+        else:
+            self._georeference = Georeference.from_geojson_dict(annotation["body"])
 
-    def to_json(self) -> str:
+        self.metadata = annotation.get("metadata", {})
+        return self
+
+    @classmethod
+    def from_annotationpage(cls, annotationpage: str) -> "MapSheet":
+        data = json.loads(annotationpage)
+        return cls.from_annotation(data["items"][0])
+
+    def to_annotation(self) -> dict[str, Any]:
         """Write the IIIf mapsheet."""
-        ...  # TODO
+        annotation = {}
+        annotation["id"] = self.id
+        annotation["@context"] = [
+            "http://www.w3.org/ns/anno.jsonld",
+            "http://geojson.org/geojson-ld/geojson-context.jsonld",
+            "http://iiif.io/api/presentation/3/context.json"
+        ]
+        annotation["type"] = "Annotation"
+        annotation["motivation"] = "georeferencing"
+
+        annotation["target"] = {"type": "Image"}
+        annotation["target"]["source"] = self._image_endpoint + "/full/full/0/default.jpg"
+        annotation["target"]["selector"] = self._mask.as_svg_selector()
+        annotation["target"]["service"] = [{
+            "@id": self._image_endpoint,
+            "type": "ImageService2"
+        }]
+
+        if self._georeference:
+            annotation["body"] = self._georeference.as_geojson_dict()
+        else:
+            annotation["body"] = {}
+
+        annotation["metadata"] = self.metadata
+
+        return annotation
+
+    def to_annotationpage(self, indent=4) -> str:
+        annotationpage = {
+            "type": "AnnotationPage",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld"
+            ],
+            "items": [self.to_annotation()]
+        }
+
+        return json.dumps(annotationpage, indent=indent)
 
     def plot(self) -> None:
         ...  # TODO
