@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.771E",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/2f/ac/96/96/df/bf/4c/69/9d/cc/26/18/c7/36/af/08/e10f9447-56c1-4c80-916c-0a2c170023ea.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4767\" height=\"3009\"><polygon points=\"0,0 0,3009 4767,3009 4767,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/2f/ac/96/96/df/bf/4c/69/9d/cc/26/18/c7/36/af/08/e10f9447-56c1-4c80-916c-0a2c170023ea.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1935",
+                "handle": "http://hdl.handle.net/10648/98559ae1-743a-5f08-e053-09f0900a86b4",
+                "title": "Gulpen",
+                "sheet": 771
+            }
+        }
+    ]
+}

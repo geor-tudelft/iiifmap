@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "8.35",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/13/66/e0/7b/4d/b2/45/99/a7/f1/e3/db/45/ec/56/da/ae1d4202-453e-49c4-8308-3b86fb0d8eb9.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"5016\" height=\"3235\"><polygon points=\"0,0 0,3235 5016,3235 5016,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/13/66/e0/7b/4d/b2/45/99/a7/f1/e3/db/45/ec/56/da/ae1d4202-453e-49c4-8308-3b86fb0d8eb9.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/09be76a5-130c-4c94-9372-8c93f0e46949",
+                "title": "Ahaus",
+                "sheet": 35
+            }
+        }
+    ]
+}

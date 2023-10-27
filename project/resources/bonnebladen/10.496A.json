@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.496A",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/88/9b/8a/4a/c1/89/4c/10/b4/be/dd/9c/8d/cb/bc/0b/b53dab17-9dc8-46c5-a16c-d9cc89d11aba.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4955\" height=\"3222\"><polygon points=\"0,0 0,3222 4955,3222 4955,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/88/9b/8a/4a/c1/89/4c/10/b4/be/dd/9c/8d/cb/bc/0b/b53dab17-9dc8-46c5-a16c-d9cc89d11aba.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/98559ae1-71e9-5f08-e053-09f0900a86b4",
+                "title": "Winterswijk",
+                "sheet": 496
+            }
+        }
+    ]
+}

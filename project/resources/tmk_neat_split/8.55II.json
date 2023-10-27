@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "8.55II",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/35/34/4b/1f/7b/7d/46/6b/ab/03/55/a0/9f/6f/b0/18/818f2654-902d-4c4c-939c-1caee55169e8.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"5341\" height=\"7087\"><polygon points=\"0,0 0,7087 5341,7087 5341,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/35/34/4b/1f/7b/7d/46/6b/ab/03/55/a0/9f/6f/b0/18/818f2654-902d-4c4c-939c-1caee55169e8.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/ee18e4f9-fa6c-4f79-8ed7-e2c06da1a3d8",
+                "title": "Hulst",
+                "sheet": 55
+            }
+        }
+    ]
+}

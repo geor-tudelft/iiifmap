@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "8.58II",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/54/0b/a1/84/c5/74/40/9c/86/c2/92/f4/87/91/ce/12/d7faa46a-be91-403c-9bf0-3fd815ff63e1.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4877\" height=\"3148\"><polygon points=\"0,0 0,3148 4877,3148 4877,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/54/0b/a1/84/c5/74/40/9c/86/c2/92/f4/87/91/ce/12/d7faa46a-be91-403c-9bf0-3fd815ff63e1.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/bf178fef-2579-427c-a52a-60ced19b98ba",
+                "title": "Roermond",
+                "sheet": 58
+            }
+        }
+    ]
+}

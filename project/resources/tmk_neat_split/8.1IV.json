@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "8.1IV",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/b3/0f/51/e9/c8/f0/47/46/80/2b/b5/cf/eb/8e/bc/3f/db9484e3-2dbc-4887-b39c-0feb8b8126b1.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"5111\" height=\"3345\"><polygon points=\"0,0 0,3345 5111,3345 5111,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/b3/0f/51/e9/c8/f0/47/46/80/2b/b5/cf/eb/8e/bc/3f/db9484e3-2dbc-4887-b39c-0feb8b8126b1.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/c556a366-0fd1-403a-b075-eb45367e2aca",
+                "title": "Ameland",
+                "sheet": 1
+            }
+        }
+    ]
+}

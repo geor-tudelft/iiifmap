@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "7.40.3-5",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/3a/d8/e2/e1/a0/c1/45/01/94/31/64/c9/e8/dc/b6/10/2b6c2b2f-6836-4cae-8485-8adb940844a8.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4781\" height=\"5965\"><polygon points=\"0,0 0,5965 4781,5965 4781,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/3a/d8/e2/e1/a0/c1/45/01/94/31/64/c9/e8/dc/b6/10/2b6c2b2f-6836-4cae-8485-8adb940844a8.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1843/1845",
+                "handle": "http://hdl.handle.net/10648/6a13d25e-cb09-4140-8af7-5dc909e94f0a",
+                "title": "Arnhem",
+                "sheet": 40
+            }
+        }
+    ]
+}

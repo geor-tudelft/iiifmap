@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "7.18.1-3",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/b5/46/b5/53/a6/7f/41/8d/a4/b9/cd/20/ca/65/24/5d/5788718a-266f-4a14-bddd-0e0879ff7078.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"6345\" height=\"6053\"><polygon points=\"0,0 0,6053 6345,6053 6345,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/b5/46/b5/53/a6/7f/41/8d/a4/b9/cd/20/ca/65/24/5d/5788718a-266f-4a14-bddd-0e0879ff7078.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1852",
+                "handle": "http://hdl.handle.net/10648/403c973e-92d3-432b-b3a5-7026a9460f55",
+                "title": "Roswinkel",
+                "sheet": 18
+            }
+        }
+    ]
+}

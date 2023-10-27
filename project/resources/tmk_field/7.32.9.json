@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "7.32.9",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/4a/12/78/52/e2/78/40/9b/9d/26/21/76/b4/a5/1b/67/e705d926-766b-4655-9e94-d571c31afbbc.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4260\" height=\"2149\"><polygon points=\"0,0 0,2149 4260,2149 4260,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/4a/12/78/52/e2/78/40/9b/9d/26/21/76/b4/a5/1b/67/e705d926-766b-4655-9e94-d571c31afbbc.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1847",
+                "handle": "http://hdl.handle.net/10648/ec2706bd-d788-4bc2-be4c-b8b1a3e6399d",
+                "title": "Amersfoort",
+                "sheet": 32
+            }
+        }
+    ]
+}

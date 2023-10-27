@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.14",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/a3/86/24/52/e1/1f/4a/a2/8f/08/74/84/96/18/e5/9b/584eb805-72e3-4494-b89b-cec8ea8be3b0.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4775\" height=\"2989\"><polygon points=\"0,0 0,2989 4775,2989 4775,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/a3/86/24/52/e1/1f/4a/a2/8f/08/74/84/96/18/e5/9b/584eb805-72e3-4494-b89b-cec8ea8be3b0.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1927",
+                "handle": "http://hdl.handle.net/10648/98559ae1-6d04-5f08-e053-09f0900a86b4",
+                "title": "Noordwest Ameland",
+                "sheet": 14
+            }
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.258",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/f3/fb/f0/67/36/44/42/39/a2/ad/58/33/87/94/df/66/a4eb6468-dec2-4cb7-9dd3-feebe4873095.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4754\" height=\"3004\"><polygon points=\"0,0 0,3004 4754,3004 4754,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/f3/fb/f0/67/36/44/42/39/a2/ad/58/33/87/94/df/66/a4eb6468-dec2-4cb7-9dd3-feebe4873095.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1900/1940",
+                "handle": "http://hdl.handle.net/10648/98559ae1-6eba-5f08-e053-09f0900a86b4",
+                "title": "Dalen",
+                "sheet": 258
+            }
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "8.8II",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/20/71/19/86/f0/73/40/20/97/3e/74/6f/8c/e9/c8/70/e1e2170a-8656-48f8-9311-0686d6a4d7e8.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"5106\" height=\"3355\"><polygon points=\"0,0 0,3355 5106,3355 5106,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/20/71/19/86/f0/73/40/20/97/3e/74/6f/8c/e9/c8/70/e1e2170a-8656-48f8-9311-0686d6a4d7e8.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/5a4976e6-9dfd-4b3c-a324-25f69bd351d0",
+                "title": "Nieuwe Schans",
+                "sheet": 8
+            }
+        }
+    ]
+}

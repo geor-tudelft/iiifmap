@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "7.19.2",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/d2/13/6b/c6/51/1e/4e/c8/98/ce/81/fc/9a/03/6d/60/72a1e617-7e12-40c9-8d1d-4720f237e3c1.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"5018\" height=\"6015\"><polygon points=\"0,0 0,6015 5018,6015 5018,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/d2/13/6b/c6/51/1e/4e/c8/98/ce/81/fc/9a/03/6d/60/72a1e617-7e12-40c9-8d1d-4720f237e3c1.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1857",
+                "handle": "http://hdl.handle.net/10648/8753ca3b-b65d-4200-82bf-eb5b3916effb",
+                "title": "Alkmaar",
+                "sheet": 19
+            }
+        }
+    ]
+}

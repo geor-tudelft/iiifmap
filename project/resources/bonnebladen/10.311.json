@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.311",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/d5/3c/39/12/4d/61/45/1b/93/51/a4/6c/9a/14/09/d7/bd39a157-bf13-4357-bb18-695a2977cf02.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4748\" height=\"3006\"><polygon points=\"0,0 0,3006 4748,3006 4748,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/d5/3c/39/12/4d/61/45/1b/93/51/a4/6c/9a/14/09/d7/bd39a157-bf13-4357-bb18-695a2977cf02.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1876",
+                "handle": "http://hdl.handle.net/10648/98559ae1-6f31-5f08-e053-09f0900a86b4",
+                "title": "Wormerveer",
+                "sheet": 311
+            }
+        }
+    ]
+}

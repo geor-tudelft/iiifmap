@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.356A",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/42/7a/0d/25/7c/51/43/49/bb/a9/9d/77/34/f0/e8/d8/31b480ac-89fa-44bc-a150-ea2044864eb9.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4740\" height=\"2986\"><polygon points=\"0,0 0,2986 4740,2986 4740,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/42/7a/0d/25/7c/51/43/49/bb/a9/9d/77/34/f0/e8/d8/31b480ac-89fa-44bc-a150-ea2044864eb9.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/98559ae1-6fc3-5f08-e053-09f0900a86b4",
+                "title": "Wijhe",
+                "sheet": 356
+            }
+        }
+    ]
+}

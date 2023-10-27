@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.430B",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/e5/5f/5a/6a/99/d0/42/28/83/14/e9/03/1f/d5/9b/e3/08afb708-201a-4f8e-875f-ab7575e6460e.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4761\" height=\"3005\"><polygon points=\"0,0 0,3005 4761,3005 4761,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/e5/5f/5a/6a/99/d0/42/28/83/14/e9/03/1f/d5/9b/e3/08afb708-201a-4f8e-875f-ab7575e6460e.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1923/1930",
+                "handle": "http://hdl.handle.net/10648/98559ae1-70e2-5f08-e053-09f0900a86b4",
+                "title": "Essen",
+                "sheet": 430
+            }
+        }
+    ]
+}

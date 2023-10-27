@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.631A",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/40/3f/1b/af/2e/cf/40/bf/95/4e/58/39/f4/44/e3/d4/c6619873-708e-41a3-b124-c5bdbb68c9b4.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4757\" height=\"3008\"><polygon points=\"0,0 0,3008 4757,3008 4757,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/40/3f/1b/af/2e/cf/40/bf/95/4e/58/39/f4/44/e3/d4/c6619873-708e-41a3-b124-c5bdbb68c9b4.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1934",
+                "handle": "http://hdl.handle.net/10648/98559ae1-731e-5f08-e053-09f0900a86b4",
+                "title": "Heikant",
+                "sheet": 631
+            }
+        }
+    ]
+}

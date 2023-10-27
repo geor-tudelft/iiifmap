@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.322",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/35/c0/d4/27/dc/55/45/f4/b3/a4/5a/dc/69/eb/95/83/7a50f464-da35-4221-afd3-5c3368862ba0.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4768\" height=\"2994\"><polygon points=\"0,0 0,2994 4768,2994 4768,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/35/c0/d4/27/dc/55/45/f4/b3/a4/5a/dc/69/eb/95/83/7a50f464-da35-4221-afd3-5c3368862ba0.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1883/1924",
+                "handle": "http://hdl.handle.net/10648/98559ae1-6f4d-5f08-e053-09f0900a86b4",
+                "title": "Den Ham",
+                "sheet": 322
+            }
+        }
+    ]
+}

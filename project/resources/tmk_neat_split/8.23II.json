@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "8.23II",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/ab/dd/57/28/19/85/4a/d7/bf/da/d6/2e/78/35/38/e5/e70e04cc-ad89-4ed5-9e0e-8817d7501622.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2583\" height=\"3000\"><polygon points=\"0,0 0,3000 2583,3000 2583,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/ab/dd/57/28/19/85/4a/d7/bf/da/d6/2e/78/35/38/e5/e70e04cc-ad89-4ed5-9e0e-8817d7501622.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/c249089e-ce11-41b8-bbcf-c2795822c496",
+                "title": "Nieuw Schoonebeek",
+                "sheet": 23
+            }
+        }
+    ]
+}

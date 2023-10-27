@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.153B",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/36/81/9e/a1/57/f6/49/11/89/7f/71/59/b4/1c/6f/93/1b2a5de9-7722-411c-9d92-c75b3795f7b7.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4761\" height=\"2997\"><polygon points=\"0,0 0,2997 4761,2997 4761,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/36/81/9e/a1/57/f6/49/11/89/7f/71/59/b4/1c/6f/93/1b2a5de9-7722-411c-9d92-c75b3795f7b7.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1937/1940",
+                "handle": "http://hdl.handle.net/10648/98559ae1-6de5-5f08-e053-09f0900a86b4",
+                "title": "Gieterveen",
+                "sheet": 153
+            }
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "8.27III",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/b0/d2/f6/16/07/5a/43/57/b8/c8/24/e8/97/99/71/f0/aa63bba6-1efc-40f6-8dfc-307b4ff48f45.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4875\" height=\"3281\"><polygon points=\"0,0 0,3281 4875,3281 4875,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/b0/d2/f6/16/07/5a/43/57/b8/c8/24/e8/97/99/71/f0/aa63bba6-1efc-40f6-8dfc-307b4ff48f45.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/4121069e-b6ee-4519-8573-5204fe316dbf",
+                "title": "Hattem",
+                "sheet": 27
+            }
+        }
+    ]
+}

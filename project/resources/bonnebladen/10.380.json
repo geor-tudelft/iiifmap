@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.380",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/18/40/79/62/a1/ca/45/f8/80/30/ef/c9/3f/8b/6c/69/c6f4c752-473b-4378-806f-09d5b5f3832d.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4741\" height=\"2962\"><polygon points=\"0,0 0,2962 4741,2962 4741,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/18/40/79/62/a1/ca/45/f8/80/30/ef/c9/3f/8b/6c/69/c6f4c752-473b-4378-806f-09d5b5f3832d.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/98559ae1-7021-5f08-e053-09f0900a86b4",
+                "title": "Oldenzaal",
+                "sheet": 380
+            }
+        }
+    ]
+}

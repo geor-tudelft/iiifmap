@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "8.49III",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/29/83/9c/5f/10/3d/4f/cc/a8/36/81/e2/44/da/23/79/70655eed-1ac6-4173-9997-1acace58033f.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"5045\" height=\"3371\"><polygon points=\"0,0 0,3371 5045,3371 5045,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/29/83/9c/5f/10/3d/4f/cc/a8/36/81/e2/44/da/23/79/70655eed-1ac6-4173-9997-1acace58033f.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/32edf279-e5cb-4a4a-b05e-0c05b6932d26",
+                "title": "Bergen op Zoom",
+                "sheet": 49
+            }
+        }
+    ]
+}

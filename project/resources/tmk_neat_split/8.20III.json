@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "8.20III",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/0b/d2/a9/29/ae/9e/43/e6/bb/54/1f/aa/3f/79/2f/03/514fff8d-3e7a-4207-b181-56b95b391048.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"5128\" height=\"3348\"><polygon points=\"0,0 0,3348 5128,3348 5128,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/0b/d2/a9/29/ae/9e/43/e6/bb/54/1f/aa/3f/79/2f/03/514fff8d-3e7a-4207-b181-56b95b391048.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/2891235e-fd4d-41db-947a-cedc6ba3587e",
+                "title": "Enkhuizen",
+                "sheet": 20
+            }
+        }
+    ]
+}

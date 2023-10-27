@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "7.34.6-7",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/33/83/4b/3b/29/79/4e/57/a6/3c/6c/e8/46/e4/28/83/659073e5-f8f7-4130-8135-2a0aa022f0b6.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2453\" height=\"5951\"><polygon points=\"0,0 0,5951 2453,5951 2453,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/33/83/4b/3b/29/79/4e/57/a6/3c/6c/e8/46/e4/28/83/659073e5-f8f7-4130-8135-2a0aa022f0b6.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1846",
+                "handle": "http://hdl.handle.net/10648/d1963530-d30b-43d3-907f-62ee8b34ee85",
+                "title": "Groenlo",
+                "sheet": 34
+            }
+        }
+    ]
+}

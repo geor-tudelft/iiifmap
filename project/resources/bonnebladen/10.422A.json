@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.422A",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/d1/2b/1a/1b/a9/89/41/38/a6/b0/cd/20/2b/2d/92/bb/172d2b57-546b-47b3-bd1a-3780196010f7.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4731\" height=\"2985\"><polygon points=\"0,0 0,2985 4731,2985 4731,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/d1/2b/1a/1b/a9/89/41/38/a6/b0/cd/20/2b/2d/92/bb/172d2b57-546b-47b3-bd1a-3780196010f7.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1894",
+                "handle": "http://hdl.handle.net/10648/98559ae1-70c9-5f08-e053-09f0900a86b4",
+                "title": "Leiden",
+                "sheet": 422
+            }
+        }
+    ]
+}

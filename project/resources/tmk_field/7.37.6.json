@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "7.37.6",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/4b/31/7c/5f/3a/93/44/e5/a1/08/a2/68/af/ef/f9/69/d4620083-4fdb-4606-8b5e-72217a78f73e.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4786\" height=\"6000\"><polygon points=\"0,0 0,6000 4786,6000 4786,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/4b/31/7c/5f/3a/93/44/e5/a1/08/a2/68/af/ef/f9/69/d4620083-4fdb-4606-8b5e-72217a78f73e.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1856",
+                "handle": "http://hdl.handle.net/10648/9e54459d-b290-4c17-a481-6129c9e200c4",
+                "title": "Rotterdam",
+                "sheet": 37
+            }
+        }
+    ]
+}

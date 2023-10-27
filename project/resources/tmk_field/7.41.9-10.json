@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "7.41.9-10",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/3b/8c/33/e0/66/82/4a/e5/8b/a3/14/b0/ad/9b/43/2d/f9cc8769-4735-4d06-8ac1-c453c7e95ee7.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4703\" height=\"3786\"><polygon points=\"0,0 0,3786 4703,3786 4703,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/3b/8c/33/e0/66/82/4a/e5/8b/a3/14/b0/ad/9b/43/2d/f9cc8769-4735-4d06-8ac1-c453c7e95ee7.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1844/1845",
+                "handle": "http://hdl.handle.net/10648/e4c4c2a5-0f33-4a37-bdec-78a381527a86",
+                "title": "Aalten",
+                "sheet": 41
+            }
+        }
+    ]
+}

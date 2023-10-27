@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.381",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/13/3d/16/8b/6f/2b/4b/8d/9d/62/02/74/80/21/e5/f2/79381c67-9f1e-408a-8385-e9543c1b351f.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4760\" height=\"3007\"><polygon points=\"0,0 0,3007 4760,3007 4760,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/13/3d/16/8b/6f/2b/4b/8d/9d/62/02/74/80/21/e5/f2/79381c67-9f1e-408a-8385-e9543c1b351f.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1902/1933",
+                "handle": "http://hdl.handle.net/10648/98559ae1-7026-5f08-e053-09f0900a86b4",
+                "title": "De Lutte",
+                "sheet": 381
+            }
+        }
+    ]
+}

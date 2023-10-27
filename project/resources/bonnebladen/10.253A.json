@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.253A",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/46/87/50/69/fc/83/40/da/b7/4a/86/56/4d/28/53/01/fd2d0c7a-8da5-4a36-b99a-3d0756af79b8.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4756\" height=\"3003\"><polygon points=\"0,0 0,3003 4756,3003 4756,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/46/87/50/69/fc/83/40/da/b7/4a/86/56/4d/28/53/01/fd2d0c7a-8da5-4a36-b99a-3d0756af79b8.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1931/1932",
+                "handle": "http://hdl.handle.net/10648/98559ae1-6ea9-5f08-e053-09f0900a86b4",
+                "title": "Blokzijl",
+                "sheet": 253
+            }
+        }
+    ]
+}

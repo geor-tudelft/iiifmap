@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "7.61.4",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/e3/be/4f/4d/7f/24/4a/cf/b6/ea/06/b6/11/04/93/62/506bd0ce-45b2-4e5c-bdc0-1f47ea2b268b.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4744\" height=\"5899\"><polygon points=\"0,0 0,5899 4744,5899 4744,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/e3/be/4f/4d/7f/24/4a/cf/b6/ea/06/b6/11/04/93/62/506bd0ce-45b2-4e5c-bdc0-1f47ea2b268b.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1842",
+                "handle": "http://hdl.handle.net/10648/4e4030c2-7476-4ae6-9d79-58555d882842",
+                "title": "Maastricht",
+                "sheet": 61
+            }
+        }
+    ]
+}

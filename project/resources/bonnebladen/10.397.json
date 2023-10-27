@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.397",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/26/bd/26/9b/fe/81/40/12/80/1c/66/9d/fa/1d/c6/22/08272b5a-e037-4c41-ab8f-93f5d068f8e3.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4738\" height=\"2987\"><polygon points=\"0,0 0,2987 4738,2987 4738,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/26/bd/26/9b/fe/81/40/12/80/1c/66/9d/fa/1d/c6/22/08272b5a-e037-4c41-ab8f-93f5d068f8e3.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1880/1919",
+                "handle": "http://hdl.handle.net/10648/98559ae1-706a-5f08-e053-09f0900a86b4",
+                "title": "Goor",
+                "sheet": 397
+            }
+        }
+    ]
+}

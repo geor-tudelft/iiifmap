@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.237",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/3a/aa/93/80/e3/65/49/6f/8c/d3/62/17/fe/75/b2/f3/bc1121a4-3b46-47c1-b884-f8a72484fdf3.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4754\" height=\"3000\"><polygon points=\"0,0 0,3000 4754,3000 4754,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/3a/aa/93/80/e3/65/49/6f/8c/d3/62/17/fe/75/b2/f3/bc1121a4-3b46-47c1-b884-f8a72484fdf3.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1884/1941",
+                "handle": "http://hdl.handle.net/10648/98559ae1-6e88-5f08-e053-09f0900a86b4",
+                "title": "Giethoorn",
+                "sheet": 237
+            }
+        }
+    ]
+}

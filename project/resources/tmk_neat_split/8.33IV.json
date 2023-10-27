@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "8.33IV",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/e0/da/5e/f1/3b/2a/44/36/8a/46/88/78/d4/53/6f/01/609b5a8e-38d5-4525-b9a5-417356b78663.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4879\" height=\"3176\"><polygon points=\"0,0 0,3176 4879,3176 4879,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/e0/da/5e/f1/3b/2a/44/36/8a/46/88/78/d4/53/6f/01/609b5a8e-38d5-4525-b9a5-417356b78663.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/0ce47dab-b8ab-40c2-b3ff-2f8811ec0219",
+                "title": "Zutphen",
+                "sheet": 33
+            }
+        }
+    ]
+}
