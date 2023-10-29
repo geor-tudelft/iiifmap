@@ -1,4 +1,4 @@
-from typing import TYPE_CHECKING, Self
+from typing import TYPE_CHECKING
 import requests
 
 
@@ -11,7 +11,7 @@ class Mask:
         self._coordinates = coordinates
 
     @classmethod
-    def full_image(cls, image_endpoint: str) -> Self:
+    def full_image(cls, image_endpoint: str) -> "Mask":
         info_url = image_endpoint + "/info.json"
 
         info_json = requests.get(info_url).json()
@@ -27,7 +27,7 @@ class Mask:
 
 
     @classmethod
-    def from_svg_selector(cls, svg_selector: dict) -> Self:
+    def from_svg_selector(cls, svg_selector: dict) -> "Mask":
         svg_value = svg_selector.get('value', '')
 
         points_str = svg_value.split('points="')[1].split('"')[0]
