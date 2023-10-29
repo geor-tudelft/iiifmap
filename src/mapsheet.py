@@ -6,6 +6,7 @@ import requests
 from PIL import Image
 import json
 
+from .mask.baseclass import RectangleMask
 if TYPE_CHECKING:
     from .custom_types import Cv2Image
 
@@ -98,7 +99,7 @@ class MapSheet:
         self._image_endpoint = image_endpoint
         self.metadata = {}
         self._georeference = None
-        self._mask = Mask.full_image(image_endpoint)
+        self._mask = RectangleMask.full_image(image_endpoint)
 
     @classmethod
     def from_annotation(cls, annotation: dict[str, Any]) -> "MapSheet":

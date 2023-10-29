@@ -6,6 +6,7 @@ from src import Resolution, MapSheet
 from unittest.mock import patch
 
 from src.custom_types import PixelCoordinate
+from src.mask.baseclass import RectangleMask
 
 
 # Test Resolution class
@@ -46,7 +47,15 @@ def test_mapsheet_from_annotationpage(sample_annotationpage):
     sheet = MapSheet.from_annotationpage(sample_annotationpage)
     assert sheet.id == "7044e91ab1c516f6"
     assert sheet._image_endpoint == "https://images.memorix.nl/nai/iiif/8a35a495-f3b3-d957-6404-fc7c870e998c"
-    assert sheet._mask.bottom_left == PixelCoordinate(796, 731)
+    assert not isinstance(sheet._mask, RectangleMask)
+    assert sheet._mask._coordinates[0] == PixelCoordinate(796, 731)
+
+def test_mapsheet_from_tmk_annotationpage(sample_tmk_annotationpage):
+    sheet = MapSheet.from_annotationpage(sample_tmk_annotationpage)
+    assert sheet.id == "7.1.1"
+    assert sheet._image_endpoint == "https://service.archief.nl/iip/4a/f2/6b/5c/5b/ee/4a/a3/b4/11/7f/e4/04/97/1b/36/121aa8e4-6947-4b7b-9877-19af473ffc83.jp2"
+    assert isinstance(sheet._mask, RectangleMask)
+    assert sheet._mask.bottom_left == PixelCoordinate(0, 0)
 
 @pytest.mark.skip  # TODO, make this pass
 def test_mapsheet_to_annotationpage(sample_annotationpage):

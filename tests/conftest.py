@@ -29,6 +29,12 @@ def sample_annotationpage() -> str:
     return data
 
 @pytest.fixture
+def sample_tmk_annotationpage() -> str:
+    with open("../project/resources/tmk_field/7.1.1.json", "r") as f:
+        data = f.read()
+
+    return data
+@pytest.fixture
 def sample_mapseries(sample_manifest) -> MapSeries:
     series = MapSeries.from_manifest(sample_manifest)
     assert len(series.mapsheets) == 10
