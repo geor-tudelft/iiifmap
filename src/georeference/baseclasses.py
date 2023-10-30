@@ -1,5 +1,5 @@
 from ..custom_types import PixelCoordinate, Wgs84Coordinate
-
+from typing import Dict, List
 
 class ControlPoint:
     pixel_coordinate = PixelCoordinate
@@ -7,12 +7,12 @@ class ControlPoint:
 
     def __init__(self, pixel_coordinate: PixelCoordinate, wgs84_coordinate: Wgs84Coordinate):
         self.pixel_coordinate = pixel_coordinate
-        self.wgs84_coordinate = Wgs84Coordinate
+        self.wgs84_coordinate = wgs84_coordinate
 
     @classmethod
     def from_geojson_feature(cls, feature: Dict) -> "ControlPoint":
-        pixel_coords = PixelCoordinate(feature["properties"]["pixelCoords"])
-        coordinates = Wgs84Coordinate(feature["geometry"]["coordinates"])
+        pixel_coords = PixelCoordinate(*feature["properties"]["pixelCoords"])
+        coordinates = Wgs84Coordinate(*feature["geometry"]["coordinates"])
         return cls(pixel_coords, coordinates)
 
     def as_geojson_feature(self) -> Dict:
