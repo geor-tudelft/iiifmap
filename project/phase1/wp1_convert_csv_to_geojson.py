@@ -1,7 +1,6 @@
 import pyproj
-import re
 from geojson import MultiPoint, Feature, FeatureCollection, dump
-
+import re
 
 
 # initiate transformation
@@ -9,9 +8,6 @@ bonne_WGS = pyproj.transformer.Transformer.from_pipeline(
     "+proj=pipeline +z=0 +step +proj=bonne +lat_1=51.5 +lon_0=0 +a=6376950.4 +rf=309.65 +pm=4.883882778 +inv +step " \
     "+proj=cart +a=6376950.4 +rf=309.65 +step +proj=helmert +convention=coordinate_frame +exact +x=932.9862 +y=86.2986 " \
     "+z=-197.9356 +rx=2.276813 +ry=1.478043 +rz=4.673555 +s=50.09450 +step +proj=noop +step +proj=cart +ellps=WGS84 +inv " )
-
-
-
 
 
 #list of lists of points per sheet
@@ -33,6 +29,7 @@ with open('sheet_index_TMK.csv', 'r') as bonnecoords:
         dNZ = int(parts[7])
         dOW = int(parts[8])
 
+        #transform coordinates
         #  west = negative, oost = positive
         a = bonne_WGS.transform(aOW, aNZ)  # O/W, N/Z
         b = bonne_WGS.transform(bOW, bNZ)
@@ -43,8 +40,8 @@ with open('sheet_index_TMK.csv', 'r') as bonnecoords:
         # add sheet to list
         features.append(Feature(id=sheet, geometry=pointslonlat)) #what properties to add
 
-feature_collection = FeatureCollection(features)
-
 # write everything to geojson
-with open('WGS84coords.geojson', 'w') as f:
+
+feature_collection = FeatureCollection(features)
+with open('results_wp1/WGS84coordsTMK.geojson', 'w') as f:
     dump(feature_collection, f)
