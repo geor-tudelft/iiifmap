@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "7.10.5-6",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/5f/a4/58/1f/41/d6/41/b7/bc/37/26/e9/cb/a9/bb/97/a8716a32-e0ee-4672-8f39-f3efade9233d.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4873\" height=\"6004\"><polygon points=\"0,0 0,6004 4873,6004 4873,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/5f/a4/58/1f/41/d6/41/b7/bc/37/26/e9/cb/a9/bb/97/a8716a32-e0ee-4672-8f39-f3efade9233d.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1855",
+                "handle": "http://hdl.handle.net/10648/b0964f50-0b2e-4b30-b767-876c9ac478a8",
+                "title": "Sneek",
+                "sheet": 10
+            }
+        }
+    ]
+}

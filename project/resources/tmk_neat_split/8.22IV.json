@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "8.22IV",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/03/f9/97/ef/93/1d/4e/a9/b9/89/ba/e0/d4/a2/71/f4/03de7955-b3e5-49bb-95d5-ab8928c57da9.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4778\" height=\"2992\"><polygon points=\"0,0 0,2992 4778,2992 4778,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/03/f9/97/ef/93/1d/4e/a9/b9/89/ba/e0/d4/a2/71/f4/03de7955-b3e5-49bb-95d5-ab8928c57da9.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/e700b8a4-1222-4390-b3f9-6b48d4d43fb2",
+                "title": "Coevorden",
+                "sheet": 22
+            }
+        }
+    ]
+}

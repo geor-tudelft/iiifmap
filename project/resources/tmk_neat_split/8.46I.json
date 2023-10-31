@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "8.46I",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/05/b2/55/f6/ea/a7/4e/81/b4/76/d4/e7/45/41/cb/ab/611e4a84-ac42-4e3b-94c5-3f8f02d2b439.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4807\" height=\"3093\"><polygon points=\"0,0 0,3093 4807,3093 4807,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/05/b2/55/f6/ea/a7/4e/81/b4/76/d4/e7/45/41/cb/ab/611e4a84-ac42-4e3b-94c5-3f8f02d2b439.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/07c18617-2062-45b2-89bf-277aa9317d13",
+                "title": "Vierlingsbeek",
+                "sheet": 46
+            }
+        }
+    ]
+}

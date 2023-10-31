@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "7.43.9-10",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/ae/a2/50/d1/01/06/40/5e/8b/35/42/34/57/98/e0/b3/365f118f-e9b2-433d-97bb-580a2e500392.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"7142\" height=\"5131\"><polygon points=\"0,0 0,5131 7142,5131 7142,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/ae/a2/50/d1/01/06/40/5e/8b/35/42/34/57/98/e0/b3/365f118f-e9b2-433d-97bb-580a2e500392.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1854/1858",
+                "handle": "http://hdl.handle.net/10648/82467920-0181-467b-a92c-a033c3b9fbb1",
+                "title": "Willemstad",
+                "sheet": 43
+            }
+        }
+    ]
+}

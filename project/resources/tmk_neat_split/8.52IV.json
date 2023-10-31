@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "8.52IV",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/8f/0d/d6/8b/b7/cb/4c/1d/8c/52/c5/0f/05/d9/4a/66/46b640b4-4fbc-4ff2-a56a-64e5a6ec5408.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4877\" height=\"3114\"><polygon points=\"0,0 0,3114 4877,3114 4877,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/8f/0d/d6/8b/b7/cb/4c/1d/8c/52/c5/0f/05/d9/4a/66/46b640b4-4fbc-4ff2-a56a-64e5a6ec5408.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/04c5a95f-44e2-42da-9cdd-d07509ceff23",
+                "title": "Venlo",
+                "sheet": 52
+            }
+        }
+    ]
+}

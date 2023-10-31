@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "8.36I",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/38/ef/85/31/c5/e6/42/33/b0/f9/70/9b/d3/ae/f2/ec/2f9df839-2762-4080-87a8-578614c0a467.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"5035\" height=\"6554\"><polygon points=\"0,0 0,6554 5035,6554 5035,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/38/ef/85/31/c5/e6/42/33/b0/f9/70/9b/d3/ae/f2/ec/2f9df839-2762-4080-87a8-578614c0a467.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/2c4a43a4-464c-431b-b90d-667880acc0d8",
+                "title": "Goedereede",
+                "sheet": 36
+            }
+        }
+    ]
+}

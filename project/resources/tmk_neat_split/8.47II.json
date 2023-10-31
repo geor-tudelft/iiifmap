@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "8.47II",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/40/4a/85/59/c3/59/4f/3f/bf/1b/08/f5/0e/fd/3d/de/ee51c375-7374-486d-9cf6-f889f885f41f.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"5309\" height=\"3273\"><polygon points=\"0,0 0,3273 5309,3273 5309,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/40/4a/85/59/c3/59/4f/3f/bf/1b/08/f5/0e/fd/3d/de/ee51c375-7374-486d-9cf6-f889f885f41f.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/caf10b0a-2278-4753-a72e-89f92514e4e4",
+                "title": "Cadzand",
+                "sheet": 47
+            }
+        }
+    ]
+}

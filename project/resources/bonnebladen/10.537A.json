@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.537A",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/15/d0/dd/1c/8b/3b/40/f1/bf/d5/45/be/88/15/69/96/e55018d1-e9e1-40a3-805f-adb13432b817.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4866\" height=\"3142\"><polygon points=\"0,0 0,3142 4866,3142 4866,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/15/d0/dd/1c/8b/3b/40/f1/bf/d5/45/be/88/15/69/96/e55018d1-e9e1-40a3-805f-adb13432b817.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/98559ae1-7277-5f08-e053-09f0900a86b4",
+                "title": "Gendringen",
+                "sheet": 537
+            }
+        }
+    ]
+}

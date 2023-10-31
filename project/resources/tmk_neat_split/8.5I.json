@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "8.5I",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/c7/19/25/91/cc/1a/4f/00/86/5f/f8/aa/7b/5c/a0/95/4919ba86-8da7-4e6a-9e4f-127aece0ad14.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"5123\" height=\"3350\"><polygon points=\"0,0 0,3350 5123,3350 5123,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/c7/19/25/91/cc/1a/4f/00/86/5f/f8/aa/7b/5c/a0/95/4919ba86-8da7-4e6a-9e4f-127aece0ad14.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/b5e80935-1357-4361-800d-a6decf831cfd",
+                "title": "Harlingen",
+                "sheet": 5
+            }
+        }
+    ]
+}

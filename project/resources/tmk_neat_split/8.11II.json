@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "8.11II",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/ee/42/06/a6/c4/e5/46/21/a4/51/98/2c/42/94/16/ae/4e3c89c7-769c-4081-b0b4-f711c58f7298.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"5111\" height=\"3347\"><polygon points=\"0,0 0,3347 5111,3347 5111,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/ee/42/06/a6/c4/e5/46/21/a4/51/98/2c/42/94/16/ae/4e3c89c7-769c-4081-b0b4-f711c58f7298.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/bf60b2e4-1ca3-4471-b73f-148ba838f05b",
+                "title": "Heerenveen",
+                "sheet": 11
+            }
+        }
+    ]
+}

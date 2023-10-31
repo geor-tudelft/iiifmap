@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "7.10.2",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/e0/a9/32/4b/d4/52/4c/36/a0/dc/d0/b5/3f/0f/3b/c0/d508c0f7-d432-4365-b47f-22e8506e0032.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4787\" height=\"6015\"><polygon points=\"0,0 0,6015 4787,6015 4787,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/e0/a9/32/4b/d4/52/4c/36/a0/dc/d0/b5/3f/0f/3b/c0/d508c0f7-d432-4365-b47f-22e8506e0032.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1855",
+                "handle": "http://hdl.handle.net/10648/fb5bd562-65e1-47d4-bef0-add34adfdaa6",
+                "title": "Sneek",
+                "sheet": 10
+            }
+        }
+    ]
+}

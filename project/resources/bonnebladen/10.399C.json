@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.399C",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/1a/6a/7b/da/3f/d5/4e/28/a2/aa/c7/3e/5d/e3/5b/9a/c136a9ca-1e70-434f-8f0b-9f670214a32c.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4792\" height=\"3030\"><polygon points=\"0,0 0,3030 4792,3030 4792,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/1a/6a/7b/da/3f/d5/4e/28/a2/aa/c7/3e/5d/e3/5b/9a/c136a9ca-1e70-434f-8f0b-9f670214a32c.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/98559ae1-7075-5f08-e053-09f0900a86b4",
+                "title": "Enschede",
+                "sheet": 399
+            }
+        }
+    ]
+}

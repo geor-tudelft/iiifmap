@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.775D",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/89/1a/c3/d3/29/47/4e/07/8e/05/2a/ce/64/cd/ad/f9/67aadf43-4bd7-432e-a21d-984d4c6522bd.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4765\" height=\"3023\"><polygon points=\"0,0 0,3023 4765,3023 4765,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/89/1a/c3/d3/29/47/4e/07/8e/05/2a/ce/64/cd/ad/f9/67aadf43-4bd7-432e-a21d-984d4c6522bd.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1935",
+                "handle": "http://hdl.handle.net/10648/98559ae1-744e-5f08-e053-09f0900a86b4",
+                "title": "Wolfshaag",
+                "sheet": 775
+            }
+        }
+    ]
+}

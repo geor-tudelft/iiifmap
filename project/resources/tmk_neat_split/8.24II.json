@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "8.24II",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/5b/3c/02/67/6e/f3/40/58/ab/6f/4c/7a/d6/14/85/8f/cd17b88c-4731-4671-ba18-e5585e6b461b.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"5168\" height=\"3227\"><polygon points=\"0,0 0,3227 5168,3227 5168,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/5b/3c/02/67/6e/f3/40/58/ab/6f/4c/7a/d6/14/85/8f/cd17b88c-4731-4671-ba18-e5585e6b461b.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/40d10390-da3c-44d1-95ec-e05c7e661190",
+                "title": "Hillegom",
+                "sheet": 24
+            }
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.393A",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/54/20/28/f5/87/5f/4f/48/ba/07/e3/65/17/30/71/06/e43a3c0f-d32d-43dd-af5c-aa6d1d5e5556.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4771\" height=\"2973\"><polygon points=\"0,0 0,2973 4771,2973 4771,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/54/20/28/f5/87/5f/4f/48/ba/07/e3/65/17/30/71/06/e43a3c0f-d32d-43dd-af5c-aa6d1d5e5556.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/98559ae1-7058-5f08-e053-09f0900a86b4",
+                "title": "Het Loo",
+                "sheet": 393
+            }
+        }
+    ]
+}

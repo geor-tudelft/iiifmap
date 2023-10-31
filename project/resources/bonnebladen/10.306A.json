@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.306A",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/a5/42/90/32/af/e5/4a/90/bc/16/bf/6b/96/cc/07/74/39c8864c-9d85-4347-a391-a0ad7b02d596.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4756\" height=\"3053\"><polygon points=\"0,0 0,3053 4756,3053 4756,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/a5/42/90/32/af/e5/4a/90/bc/16/bf/6b/96/cc/07/74/39c8864c-9d85-4347-a391-a0ad7b02d596.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1933/1935",
+                "handle": "http://hdl.handle.net/10648/98559ae1-6f20-5f08-e053-09f0900a86b4",
+                "title": "Ommen",
+                "sheet": 306
+            }
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "7.25.1",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/d6/e3/ae/9a/eb/bc/4c/e5/ad/c9/44/64/bf/31/41/5f/cd8a0586-5ade-4244-8307-9dd5c98bab3d.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4845\" height=\"6126\"><polygon points=\"0,0 0,6126 4845,6126 4845,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/d6/e3/ae/9a/eb/bc/4c/e5/ad/c9/44/64/bf/31/41/5f/cd8a0586-5ade-4244-8307-9dd5c98bab3d.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1849",
+                "handle": "http://hdl.handle.net/10648/f63eb35f-744a-4aa2-aa72-bad9091532c7",
+                "title": "Amsterdam",
+                "sheet": 25
+            }
+        }
+    ]
+}

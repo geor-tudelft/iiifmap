@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "7.39.9",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/f9/b5/0b/2a/5f/44/4a/45/a0/77/83/eb/cd/f6/ca/02/2e6b94b2-e7b1-42bd-95b7-0ffb707867ab.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4738\" height=\"3121\"><polygon points=\"0,0 0,3121 4738,3121 4738,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/f9/b5/0b/2a/5f/44/4a/45/a0/77/83/eb/cd/f6/ca/02/2e6b94b2-e7b1-42bd-95b7-0ffb707867ab.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1836/1846",
+                "handle": "http://hdl.handle.net/10648/36c22338-4cdb-4749-b7e7-c21b550193a0",
+                "title": "Rhenen",
+                "sheet": 39
+            }
+        }
+    ]
+}

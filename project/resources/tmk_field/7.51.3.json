@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "7.51.3",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/f9/ff/e2/61/6d/fe/41/a8/ab/88/76/e3/5d/74/7c/da/35d5a63c-f35d-4b3e-8f05-ae182345d784.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"7185\" height=\"5123\"><polygon points=\"0,0 0,5123 7185,5123 7185,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/f9/ff/e2/61/6d/fe/41/a8/ab/88/76/e3/5d/74/7c/da/35d5a63c-f35d-4b3e-8f05-ae182345d784.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1837/1840",
+                "handle": "http://hdl.handle.net/10648/07609a94-2815-4c73-a6b6-2e0cb180cfc7",
+                "title": "Eindhoven",
+                "sheet": 51
+            }
+        }
+    ]
+}

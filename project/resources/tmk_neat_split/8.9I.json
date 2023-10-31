@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "8.9I",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/60/3b/85/57/7d/dc/45/60/af/a5/0f/18/2c/89/3b/f0/4c0329a0-42d1-419b-a76f-9875637ef0d0.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"5129\" height=\"3353\"><polygon points=\"0,0 0,3353 5129,3353 5129,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/60/3b/85/57/7d/dc/45/60/af/a5/0f/18/2c/89/3b/f0/4c0329a0-42d1-419b-a76f-9875637ef0d0.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/b10fd397-374c-4a43-ac98-84b9479717d9",
+                "title": "Den Helder",
+                "sheet": 9
+            }
+        }
+    ]
+}

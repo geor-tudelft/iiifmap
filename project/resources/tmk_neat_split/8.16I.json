@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "8.16I",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/12/10/34/df/fd/29/40/67/ab/c1/80/44/80/ec/ac/8b/b6797522-7648-46e3-8b4c-255a90dffd1b.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"5102\" height=\"3344\"><polygon points=\"0,0 0,3344 5102,3344 5102,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/12/10/34/df/fd/29/40/67/ab/c1/80/44/80/ec/ac/8b/b6797522-7648-46e3-8b4c-255a90dffd1b.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/33753f27-3ee4-4f6d-a380-9c77190dd927",
+                "title": "Steenwijk",
+                "sheet": 16
+            }
+        }
+    ]
+}

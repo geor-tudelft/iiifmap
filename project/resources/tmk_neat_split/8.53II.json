@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "8.53II",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/38/7b/2b/20/28/49/42/c2/b1/50/60/98/97/93/aa/9e/448d50d1-64a2-406a-8dc7-242b95cc94d2.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"5313\" height=\"3197\"><polygon points=\"0,0 0,3197 5313,3197 5313,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/38/7b/2b/20/28/49/42/c2/b1/50/60/98/97/93/aa/9e/448d50d1-64a2-406a-8dc7-242b95cc94d2.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/8ff64073-661d-4e77-a059-db34d36a3a17",
+                "title": "Sluis",
+                "sheet": 53
+            }
+        }
+    ]
+}

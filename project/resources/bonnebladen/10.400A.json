@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.400A",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/ff/9d/a9/27/2a/4f/47/37/b5/c7/f3/0e/a5/54/c8/ef/1aa98722-4ec8-4d15-9709-c892cd787d24.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4768\" height=\"3007\"><polygon points=\"0,0 0,3007 4768,3007 4768,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/ff/9d/a9/27/2a/4f/47/37/b5/c7/f3/0e/a5/54/c8/ef/1aa98722-4ec8-4d15-9709-c892cd787d24.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/98559ae1-707a-5f08-e053-09f0900a86b4",
+                "title": "Losser",
+                "sheet": 400
+            }
+        }
+    ]
+}

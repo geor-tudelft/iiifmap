@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "8.29I",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/e0/a6/89/38/8a/b0/4e/e7/ae/63/80/a4/57/ff/f9/b5/7a7959c1-cb00-4691-8a13-a6f7315aa89e.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4940\" height=\"3107\"><polygon points=\"0,0 0,3107 4940,3107 4940,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/e0/a6/89/38/8a/b0/4e/e7/ae/63/80/a4/57/ff/f9/b5/7a7959c1-cb00-4691-8a13-a6f7315aa89e.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/b5a35081-9578-4959-bea9-cb408c248e46",
+                "title": "Denekamp",
+                "sheet": 29
+            }
+        }
+    ]
+}

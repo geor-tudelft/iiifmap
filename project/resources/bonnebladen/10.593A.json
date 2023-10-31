@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.593A",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/13/68/98/c6/dc/86/41/ff/b8/db/b5/25/16/19/c1/8a/ee8fdb44-3004-467e-99fa-80770d5ebbde.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4749\" height=\"2989\"><polygon points=\"0,0 0,2989 4749,2989 4749,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/13/68/98/c6/dc/86/41/ff/b8/db/b5/25/16/19/c1/8a/ee8fdb44-3004-467e-99fa-80770d5ebbde.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1935",
+                "handle": "http://hdl.handle.net/10648/98559ae1-72f1-5f08-e053-09f0900a86b4",
+                "title": "Hekkens",
+                "sheet": 593
+            }
+        }
+    ]
+}

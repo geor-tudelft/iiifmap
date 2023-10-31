@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.376A",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/d8/7f/ae/52/48/1f/42/09/a3/f2/14/ad/f9/82/01/e2/17e73620-3055-429c-9f66-005466f85dd0.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4771\" height=\"2994\"><polygon points=\"0,0 0,2994 4771,2994 4771,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/d8/7f/ae/52/48/1f/42/09/a3/f2/14/ad/f9/82/01/e2/17e73620-3055-429c-9f66-005466f85dd0.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/98559ae1-7013-5f08-e053-09f0900a86b4",
+                "title": "Wechelerveld",
+                "sheet": 376
+            }
+        }
+    ]
+}

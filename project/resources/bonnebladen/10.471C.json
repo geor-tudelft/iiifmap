@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.471C",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/11/72/75/b4/36/4e/49/44/b7/0d/f0/e9/21/35/b2/91/c8570b00-7ae9-4c5d-a797-ea0c5d6f14f6.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4755\" height=\"2995\"><polygon points=\"0,0 0,2995 4755,2995 4755,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/11/72/75/b4/36/4e/49/44/b7/0d/f0/e9/21/35/b2/91/c8570b00-7ae9-4c5d-a797-ea0c5d6f14f6.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1924/1927",
+                "handle": "http://hdl.handle.net/10648/98559ae1-718b-5f08-e053-09f0900a86b4",
+                "title": "Doesburg",
+                "sheet": 471
+            }
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "8.7IV",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/46/7d/0b/3a/63/60/46/91/99/4f/5b/4b/38/a6/16/b1/37fcf2f7-eb05-4e75-be9c-e9436aad3204.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"5107\" height=\"3353\"><polygon points=\"0,0 0,3353 5107,3353 5107,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/46/7d/0b/3a/63/60/46/91/99/4f/5b/4b/38/a6/16/b1/37fcf2f7-eb05-4e75-be9c-e9436aad3204.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/be9d98dc-c671-48e2-b7d0-f7421100bef4",
+                "title": "Groningen",
+                "sheet": 7
+            }
+        }
+    ]
+}

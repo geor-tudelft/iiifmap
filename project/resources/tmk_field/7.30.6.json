@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "7.30.6",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/74/72/a2/51/92/ef/49/72/a4/c3/b1/46/7e/e3/cc/f6/a398bcaa-d8da-41e9-8c38-7b62adf4397b.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4725\" height=\"5917\"><polygon points=\"0,0 0,5917 4725,5917 4725,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/74/72/a2/51/92/ef/49/72/a4/c3/b1/46/7e/e3/cc/f6/a398bcaa-d8da-41e9-8c38-7b62adf4397b.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1850/1851",
+                "handle": "http://hdl.handle.net/10648/690c6bfa-5ee0-4bd1-b7d5-0c50c72dcec7",
+                "title": "'s-Gravenhage",
+                "sheet": 30
+            }
+        }
+    ]
+}

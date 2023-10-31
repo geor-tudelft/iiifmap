@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.762C",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/df/98/20/3e/e7/9b/45/4c/b7/5a/67/a5/c1/0e/d8/6d/8f785d1d-67ae-4746-9daa-52e70ddb0d48.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4761\" height=\"3012\"><polygon points=\"0,0 0,3012 4761,3012 4761,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/df/98/20/3e/e7/9b/45/4c/b7/5a/67/a5/c1/0e/d8/6d/8f785d1d-67ae-4746-9daa-52e70ddb0d48.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1935",
+                "handle": "http://hdl.handle.net/10648/98559ae1-7408-5f08-e053-09f0900a86b4",
+                "title": "Meerssen",
+                "sheet": 762
+            }
+        }
+    ]
+}

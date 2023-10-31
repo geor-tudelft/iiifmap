@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "7.53.1",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/40/95/70/86/59/d5/4a/9e/b7/95/a5/e3/a0/38/fd/8a/a7f9e1e1-ecd2-46bf-84a7-83fb310eaf3a.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4711\" height=\"5941\"><polygon points=\"0,0 0,5941 4711,5941 4711,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/40/95/70/86/59/d5/4a/9e/b7/95/a5/e3/a0/38/fd/8a/a7f9e1e1-ecd2-46bf-84a7-83fb310eaf3a.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1857",
+                "handle": "http://hdl.handle.net/10648/ba6ab77a-8851-4bfd-8516-f37c2a4f6fe7",
+                "title": "Sluis",
+                "sheet": 53
+            }
+        }
+    ]
+}

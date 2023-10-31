@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.499B",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/b7/af/9f/4a/53/f3/45/de/b4/3d/ba/6d/fb/6f/92/d3/423fa6a1-f1bf-4f4b-9969-caf99c8aa718.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4737\" height=\"2966\"><polygon points=\"0,0 0,2966 4737,2966 4737,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/b7/af/9f/4a/53/f3/45/de/b4/3d/ba/6d/fb/6f/92/d3/423fa6a1-f1bf-4f4b-9969-caf99c8aa718.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1899/1918",
+                "handle": "http://hdl.handle.net/10648/98559ae1-71f2-5f08-e053-09f0900a86b4",
+                "title": "Oostvoorne",
+                "sheet": 499
+            }
+        }
+    ]
+}

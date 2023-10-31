@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "7.48.2",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/df/78/fe/7f/24/79/40/2e/bf/3d/2c/67/7b/5b/88/5a/ee1171a1-ad15-4416-bac4-f4fcb5091415.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4729\" height=\"5855\"><polygon points=\"0,0 0,5855 4729,5855 4729,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/df/78/fe/7f/24/79/40/2e/bf/3d/2c/67/7b/5b/88/5a/ee1171a1-ad15-4416-bac4-f4fcb5091415.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1856",
+                "handle": "http://hdl.handle.net/10648/ebb3f885-5672-492d-9e1c-48e69bcadb71",
+                "title": "Middelburg",
+                "sheet": 48
+            }
+        }
+    ]
+}

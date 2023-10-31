@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "8.42I",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/84/ae/07/f9/ff/9d/45/83/9d/ef/2c/4e/c9/63/e7/83/8ff222c4-a60e-40ef-a14b-ff254f0850eb.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"5341\" height=\"3380\"><polygon points=\"0,0 0,3380 5341,3380 5341,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/84/ae/07/f9/ff/9d/45/83/9d/ef/2c/4e/c9/63/e7/83/8ff222c4-a60e-40ef-a14b-ff254f0850eb.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/db71a430-5f4a-4a5d-b8c9-0cb7ab775f30",
+                "title": "Zierikzee",
+                "sheet": 42
+            }
+        }
+    ]
+}

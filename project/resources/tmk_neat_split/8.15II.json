@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "8.15II",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/5b/bb/c0/38/b8/40/42/8d/b8/d3/41/fa/d3/42/d8/c1/11179c28-85b9-4a5f-ab2c-10edf21538aa.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"5101\" height=\"3335\"><polygon points=\"0,0 0,3335 5101,3335 5101,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/5b/bb/c0/38/b8/40/42/8d/b8/d3/41/fa/d3/42/d8/c1/11179c28-85b9-4a5f-ab2c-10edf21538aa.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/1b52e631-b841-441f-bc05-965d592bd1f8",
+                "title": "Stavoren",
+                "sheet": 15
+            }
+        }
+    ]
+}

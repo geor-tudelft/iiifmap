@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "7.21.4-7",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/47/1e/7e/bd/a6/91/47/e2/bf/84/0a/71/60/5a/cc/87/84fc86a1-5f46-45b2-be79-08db6d97665a.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4784\" height=\"5967\"><polygon points=\"0,0 0,5967 4784,5967 4784,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/47/1e/7e/bd/a6/91/47/e2/bf/84/0a/71/60/5a/cc/87/84fc86a1-5f46-45b2-be79-08db6d97665a.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1851",
+                "handle": "http://hdl.handle.net/10648/534504fe-b665-4468-86e9-84da1d2ab644",
+                "title": "Zwolle",
+                "sheet": 21
+            }
+        }
+    ]
+}

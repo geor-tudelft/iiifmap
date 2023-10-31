@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "8.57I",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/44/f5/c0/0b/f6/8c/40/5b/a7/b7/d0/15/66/ab/c3/25/da30223e-734e-4fbc-a0f7-fa2e0288e3b0.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4883\" height=\"2997\"><polygon points=\"0,0 0,2997 4883,2997 4883,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/44/f5/c0/0b/f6/8c/40/5b/a7/b7/d0/15/66/ab/c3/25/da30223e-734e-4fbc-a0f7-fa2e0288e3b0.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/9630a485-4e81-4f5c-9bb9-37081cd913be",
+                "title": "Valkenswaard",
+                "sheet": 57
+            }
+        }
+    ]
+}

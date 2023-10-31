@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.707",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/de/f6/3c/b5/39/34/4d/37/bd/23/4e/75/e5/ab/33/8f/ee3d981a-ee75-441f-bf27-89f9b74957b4.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4763\" height=\"3006\"><polygon points=\"0,0 0,3006 4763,3006 4763,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/de/f6/3c/b5/39/34/4d/37/bd/23/4e/75/e5/ab/33/8f/ee3d981a-ee75-441f-bf27-89f9b74957b4.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1898/1922",
+                "handle": "http://hdl.handle.net/10648/98559ae1-738b-5f08-e053-09f0900a86b4",
+                "title": "Riethoven",
+                "sheet": 707
+            }
+        }
+    ]
+}

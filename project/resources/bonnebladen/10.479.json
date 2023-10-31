@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.479",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/0b/09/f0/42/10/ed/42/99/be/ee/e9/ab/dd/36/ac/c4/11db9524-276e-4f9e-9bbb-55bb8a157442.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4741\" height=\"2987\"><polygon points=\"0,0 0,2987 4741,2987 4741,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/0b/09/f0/42/10/ed/42/99/be/ee/e9/ab/dd/36/ac/c4/11db9524-276e-4f9e-9bbb-55bb8a157442.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1874/1912",
+                "handle": "http://hdl.handle.net/10648/98559ae1-71a7-5f08-e053-09f0900a86b4",
+                "title": "Naaldwijk",
+                "sheet": 479
+            }
+        }
+    ]
+}

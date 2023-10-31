@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "7.62.1",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/c5/63/1d/b6/6c/dd/43/81/b9/8e/bc/fd/95/0d/60/a9/19429dd0-2dd7-4e1c-ba02-b368fac57c68.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4782\" height=\"5916\"><polygon points=\"0,0 0,5916 4782,5916 4782,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/c5/63/1d/b6/6c/dd/43/81/b9/8e/bc/fd/95/0d/60/a9/19429dd0-2dd7-4e1c-ba02-b368fac57c68.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1842/1843",
+                "handle": "http://hdl.handle.net/10648/e0d8fae4-eec6-4d61-9120-b5c25a122661",
+                "title": "Heerlen",
+                "sheet": 62
+            }
+        }
+    ]
+}

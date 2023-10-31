@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "8.37I",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/d9/9e/bb/79/df/d6/4d/5b/82/64/20/c5/ff/58/b8/60/6eb3121a-abf7-46e4-be9a-24c3a421ac41.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"5039\" height=\"3432\"><polygon points=\"0,0 0,3432 5039,3432 5039,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/d9/9e/bb/79/df/d6/4d/5b/82/64/20/c5/ff/58/b8/60/6eb3121a-abf7-46e4-be9a-24c3a421ac41.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/25127488-2853-43e1-b64b-bc1ebffc84d8",
+                "title": "Rotterdam",
+                "sheet": 37
+            }
+        }
+    ]
+}

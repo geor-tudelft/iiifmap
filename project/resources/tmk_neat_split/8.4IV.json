@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "8.4IV",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/fa/e0/62/64/54/f3/4f/9f/bb/43/83/6a/19/be/3d/ca/9593f0a3-5545-48b3-ac82-84b28fd9f2cf.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"5130\" height=\"3350\"><polygon points=\"0,0 0,3350 5130,3350 5130,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/fa/e0/62/64/54/f3/4f/9f/bb/43/83/6a/19/be/3d/ca/9593f0a3-5545-48b3-ac82-84b28fd9f2cf.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/04522350-46b9-48d7-88bd-cd2e044c60b5",
+                "title": "Vlieland",
+                "sheet": 4
+            }
+        }
+    ]
+}

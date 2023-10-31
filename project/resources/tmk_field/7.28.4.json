@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "7.28.4",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/6c/f3/56/96/8a/40/4a/da/a2/68/f5/4c/e5/39/ab/b9/4a9e488a-87a2-411b-b3b5-06d776ac932d.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4716\" height=\"5394\"><polygon points=\"0,0 0,5394 4716,5394 4716,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/6c/f3/56/96/8a/40/4a/da/a2/68/f5/4c/e5/39/ab/b9/4a9e488a-87a2-411b-b3b5-06d776ac932d.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1848",
+                "handle": "http://hdl.handle.net/10648/d8bb5dbb-b5d8-43f6-9984-c9a03b92606d",
+                "title": "Almelo",
+                "sheet": 28
+            }
+        }
+    ]
+}

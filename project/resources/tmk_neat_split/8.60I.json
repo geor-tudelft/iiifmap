@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "8.60I",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/29/2c/cb/57/3e/10/4d/3a/b0/e2/86/ff/e9/c5/ed/19/871e8161-0d35-4270-88fb-8d87071507f0.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4872\" height=\"6050\"><polygon points=\"0,0 0,6050 4872,6050 4872,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/29/2c/cb/57/3e/10/4d/3a/b0/e2/86/ff/e9/c5/ed/19/871e8161-0d35-4270-88fb-8d87071507f0.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/88fa95f1-7603-4c11-a46d-e283189dcda2",
+                "title": "Sittard",
+                "sheet": 60
+            }
+        }
+    ]
+}

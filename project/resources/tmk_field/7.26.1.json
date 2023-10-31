@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "7.26.1",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/23/6f/82/c5/65/b3/48/c5/a7/85/72/65/7a/15/21/bc/741c12ee-652a-468c-9b8a-c5bc48e337b7.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"5174\" height=\"2639\"><polygon points=\"0,0 0,2639 5174,2639 5174,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/23/6f/82/c5/65/b3/48/c5/a7/85/72/65/7a/15/21/bc/741c12ee-652a-468c-9b8a-c5bc48e337b7.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1848",
+                "handle": "http://hdl.handle.net/10648/797100a6-b7de-4bfd-a6e6-8cb6dc22db43",
+                "title": "Harderwijk",
+                "sheet": 26
+            }
+        }
+    ]
+}
