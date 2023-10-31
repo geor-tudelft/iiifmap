@@ -6,6 +6,8 @@ import requests
 from PIL import Image
 import json
 
+from matplotlib import pyplot as plt
+
 from .mask.baseclass import RectangleMask
 if TYPE_CHECKING:
     from .custom_types import Cv2Image
@@ -162,7 +164,11 @@ class MapSheet:
         return json.dumps(annotationpage, indent=indent)
 
     def plot(self) -> None:
-        ...  # TODO
+        img = self.get_image(Resolution.percentage_size(50))
+        plt.figure(dpi=300)
+        plt.title(f"{self.id}: {self.metadata['title']}")
+        plt.imshow(img)
+        plt.show()
 
     def set_mask(self, mask: "Mask") -> None:
         self._mask = mask
