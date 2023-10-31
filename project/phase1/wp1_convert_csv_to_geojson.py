@@ -14,7 +14,7 @@ bonne_WGS = pyproj.transformer.Transformer.from_pipeline(
 features = []
 
 #get coord from csv
-with open('sheet_index_TMK.csv', 'r') as bonnecoords:
+with open('../resources/sheet_index_TMK.csv', 'r') as bonnecoords:
     next(bonnecoords)
 
     for row in bonnecoords:

@@ -220,3 +220,7 @@ class MapSheet:
             return np.array(image)
         else:
             raise RuntimeError("Failed to download image from url: {url}")
+
+    @property
+    def mask(self):
+        return self._mask
