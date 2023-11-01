@@ -1,6 +1,7 @@
 from ..custom_types import PixelCoordinate, Wgs84Coordinate
 from typing import Dict, List
 
+
 class ControlPoint:
     pixel_coordinate = PixelCoordinate
     wgs84_coordinate = Wgs84Coordinate

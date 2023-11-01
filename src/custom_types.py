@@ -14,7 +14,7 @@ class PixelCoordinate:
 
 @dataclass
 class Wgs84Coordinate:
-    lat: float
     lon: float
+    lat: float
 
 
