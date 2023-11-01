@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.70",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/93/e2/0c/a8/85/f3/47/44/84/d4/dc/47/99/38/0c/cd/36e38d3f-55ec-4581-a133-f37c4088ea6f.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2960\" height=\"4714\"><polygon points=\"22,22 22,4714 2960,4714 2960,22\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/93/e2/0c/a8/85/f3/47/44/84/d4/dc/47/99/38/0c/cd/36e38d3f-55ec-4581-a133-f37c4088ea6f.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1878",
+                "handle": "http://hdl.handle.net/10648/98559ae1-6d44-5f08-e053-09f0900a86b4",
+                "title": "Oostvlieland",
+                "sheet": 70
+            }
+        }
+    ]
+}

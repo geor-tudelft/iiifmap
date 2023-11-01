@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.655",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/5d/22/a6/cf/9c/bd/44/5b/b4/7b/5a/b1/83/9c/f8/8d/e0091c05-14f7-4a01-a27f-e08ed3dc7f92.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2968\" height=\"4735\"><polygon points=\"21,15 21,4735 2968,4735 2968,15\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/5d/22/a6/cf/9c/bd/44/5b/b4/7b/5a/b1/83/9c/f8/8d/e0091c05-14f7-4a01-a27f-e08ed3dc7f92.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1910",
+                "handle": "http://hdl.handle.net/10648/98559ae1-7344-5f08-e053-09f0900a86b4",
+                "title": "Deurloo",
+                "sheet": 655
+            }
+        }
+    ]
+}

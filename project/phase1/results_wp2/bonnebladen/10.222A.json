@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.222A",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/a6/04/35/c1/b5/c8/48/48/ae/bb/63/65/5e/77/a4/50/de170e03-2077-4bfc-af6c-15f84f303cdc.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2972\" height=\"4734\"><polygon points=\"23,22 23,4734 2972,4734 2972,22\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/a6/04/35/c1/b5/c8/48/48/ae/bb/63/65/5e/77/a4/50/de170e03-2077-4bfc-af6c-15f84f303cdc.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1940",
+                "handle": "http://hdl.handle.net/10648/98559ae1-6e6b-5f08-e053-09f0900a86b4",
+                "title": "Lhee",
+                "sheet": 222
+            }
+        }
+    ]
+}

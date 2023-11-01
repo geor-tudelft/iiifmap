@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.458E",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/1a/31/78/1d/7a/23/42/96/ad/67/6e/02/5f/a3/86/27/09eece6e-8da8-431d-8b68-7b5abdc20eab.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"3106\" height=\"4826\"><polygon points=\"22,23 22,4826 3106,4826 3106,23\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/1a/31/78/1d/7a/23/42/96/ad/67/6e/02/5f/a3/86/27/09eece6e-8da8-431d-8b68-7b5abdc20eab.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/98559ae1-7158-5f08-e053-09f0900a86b4",
+                "title": "Monster",
+                "sheet": 458
+            }
+        }
+    ]
+}

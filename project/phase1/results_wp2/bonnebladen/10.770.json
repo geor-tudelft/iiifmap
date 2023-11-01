@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.770",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/34/72/3b/9e/d8/7a/40/67/89/62/9c/15/7b/e4/76/ad/28bc2ed5-539d-4b0b-82ca-2c651322ad48.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2955\" height=\"4720\"><polygon points=\"29,22 29,4720 2955,4720 2955,22\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/34/72/3b/9e/d8/7a/40/67/89/62/9c/15/7b/e4/76/ad/28bc2ed5-539d-4b0b-82ca-2c651322ad48.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1891/1901",
+                "handle": "http://hdl.handle.net/10648/98559ae1-7431-5f08-e053-09f0900a86b4",
+                "title": "St. Geertruid",
+                "sheet": 770
+            }
+        }
+    ]
+}

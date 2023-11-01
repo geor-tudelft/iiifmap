@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.437A",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/71/bc/76/68/db/44/49/e3/8a/ae/6f/18/a7/fd/6a/97/2cfa18ee-311e-4f08-8c0d-10b24a51d818.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"3000\" height=\"4706\"><polygon points=\"65,21 65,4706 3000,4706 3000,21\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/71/bc/76/68/db/44/49/e3/8a/ae/6f/18/a7/fd/6a/97/2cfa18ee-311e-4f08-8c0d-10b24a51d818.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1900",
+                "handle": "http://hdl.handle.net/10648/98559ae1-7100-5f08-e053-09f0900a86b4",
+                "title": "Haaksbergen",
+                "sheet": 437
+            }
+        }
+    ]
+}

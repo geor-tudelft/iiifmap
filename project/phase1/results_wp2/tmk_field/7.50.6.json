@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "7.50.6",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/3d/ea/e2/5b/ba/7c/44/cf/a1/c3/f8/a6/86/88/17/b8/eb016245-ce46-434b-8f17-3acdadf6dee8.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"3543\" height=\"4984\"><polygon points=\"27,16 27,4984 3543,4984 3543,16\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/3d/ea/e2/5b/ba/7c/44/cf/a1/c3/f8/a6/86/88/17/b8/eb016245-ce46-434b-8f17-3acdadf6dee8.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1838",
+                "handle": "http://hdl.handle.net/10648/0930f93f-9eba-404f-a678-fdbdc6fbffb1",
+                "title": "Breda",
+                "sheet": 50
+            }
+        }
+    ]
+}

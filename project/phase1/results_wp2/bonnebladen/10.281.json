@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.281",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/ad/54/2b/79/0a/84/43/58/b3/2c/ce/a5/e1/06/bc/f7/ec950ff3-0ba6-403e-aa90-b4df366d49c1.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2979\" height=\"4733\"><polygon points=\"23,27 23,4733 2979,4733 2979,27\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/ad/54/2b/79/0a/84/43/58/b3/2c/ce/a5/e1/06/bc/f7/ec950ff3-0ba6-403e-aa90-b4df366d49c1.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1877/1894",
+                "handle": "http://hdl.handle.net/10648/98559ae1-6ef0-5f08-e053-09f0900a86b4",
+                "title": "Blokkerhoek",
+                "sheet": 281
+            }
+        }
+    ]
+}

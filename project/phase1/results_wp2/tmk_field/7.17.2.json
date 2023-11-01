@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "7.17.2",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/25/0a/27/40/bf/40/47/db/ba/36/07/2d/92/0f/d0/6c/22c0ccac-3587-4aea-ac15-bbc0fb881af6.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"5935\" height=\"4888\"><polygon points=\"28,19 28,4888 5935,4888 5935,19\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/25/0a/27/40/bf/40/47/db/ba/36/07/2d/92/0f/d0/6c/22c0ccac-3587-4aea-ac15-bbc0fb881af6.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1852",
+                "handle": "http://hdl.handle.net/10648/a0103fc8-e9ef-47a5-b2f9-55f388bb813b",
+                "title": "Beilen",
+                "sheet": 17
+            }
+        }
+    ]
+}

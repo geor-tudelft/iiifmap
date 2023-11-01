@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.230",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/14/27/ce/e1/f4/97/41/5a/b8/7a/23/c3/d1/c0/85/bc/699a6b1a-f76a-45b3-8be1-446872be24c0.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2966\" height=\"4725\"><polygon points=\"23,23 23,4725 2966,4725 2966,23\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/14/27/ce/e1/f4/97/41/5a/b8/7a/23/c3/d1/c0/85/bc/699a6b1a-f76a-45b3-8be1-446872be24c0.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1877/1907",
+                "handle": "http://hdl.handle.net/10648/98559ae1-6e7e-5f08-e053-09f0900a86b4",
+                "title": "Medemblik",
+                "sheet": 230
+            }
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.436",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/3c/a2/05/71/3e/1e/4c/d9/96/8f/aa/2b/5c/5a/43/1a/ed75a836-30f1-4461-a005-d882f9eae0f3.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2968\" height=\"4722\"><polygon points=\"26,29 26,4722 2968,4722 2968,29\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/3c/a2/05/71/3e/1e/4c/d9/96/8f/aa/2b/5c/5a/43/1a/ed75a836-30f1-4461-a005-d882f9eae0f3.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1880/1921",
+                "handle": "http://hdl.handle.net/10648/98559ae1-70fa-5f08-e053-09f0900a86b4",
+                "title": "Borculo",
+                "sheet": 436
+            }
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "7.13.1",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/f4/ae/93/13/2a/43/4e/7b/9a/8d/00/88/ed/7c/93/b9/b9b4b91a-e338-4d76-aacf-8dd5f2c19ee6.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"6012\" height=\"4808\"><polygon points=\"23,58 23,4808 6012,4808 6012,58\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/f4/ae/93/13/2a/43/4e/7b/9a/8d/00/88/ed/7c/93/b9/b9b4b91a-e338-4d76-aacf-8dd5f2c19ee6.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1852",
+                "handle": "http://hdl.handle.net/10648/441e56f5-372b-4e6f-91ab-f6354b79318e",
+                "title": "Bourtange",
+                "sheet": 13
+            }
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.374E",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/12/f8/11/fa/f6/a5/4a/40/98/ac/36/49/bf/2f/f0/b3/a9fba887-cc00-473e-8968-869917ae2cd6.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2965\" height=\"4728\"><polygon points=\"22,22 22,4728 2965,4728 2965,22\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/12/f8/11/fa/f6/a5/4a/40/98/ac/36/49/bf/2f/f0/b3/a9fba887-cc00-473e-8968-869917ae2cd6.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1930",
+                "handle": "http://hdl.handle.net/10648/98559ae1-700a-5f08-e053-09f0900a86b4",
+                "title": "Vaassen",
+                "sheet": 374
+            }
+        }
+    ]
+}

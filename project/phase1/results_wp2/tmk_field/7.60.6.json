@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "7.60.6",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/0b/3a/8c/41/e6/c4/48/f6/90/21/b8/ee/c9/93/24/4c/27030d6f-8af4-4c45-8834-12605bdc9be4.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"5875\" height=\"2872\"><polygon points=\"26,2544 26,2872 5875,2872 5875,2544\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/0b/3a/8c/41/e6/c4/48/f6/90/21/b8/ee/c9/93/24/4c/27030d6f-8af4-4c45-8834-12605bdc9be4.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1842/1843",
+                "handle": "http://hdl.handle.net/10648/f94314d4-8644-451b-9538-55c170859b8d",
+                "title": "Sittard",
+                "sheet": 60
+            }
+        }
+    ]
+}

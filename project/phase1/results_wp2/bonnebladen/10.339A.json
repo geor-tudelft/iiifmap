@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.339A",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/28/67/76/0d/0a/a7/48/58/97/ec/c9/92/d0/b1/0b/aa/df91b2a8-4365-4b2f-9064-c7c9fb4ffeb6.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2951\" height=\"4728\"><polygon points=\"27,22 27,4728 2951,4728 2951,22\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/28/67/76/0d/0a/a7/48/58/97/ec/c9/92/d0/b1/0b/aa/df91b2a8-4365-4b2f-9064-c7c9fb4ffeb6.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/98559ae1-6f82-5f08-e053-09f0900a86b4",
+                "title": "Heino",
+                "sheet": 339
+            }
+        }
+    ]
+}

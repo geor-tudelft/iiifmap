@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "7.49.3",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/63/b7/03/9c/af/33/48/db/af/33/db/ea/b5/78/e0/89/8b6386f2-3bb1-43af-9166-f22caeccb0c6.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"5111\" height=\"7112\"><polygon points=\"20,25 20,7112 5111,7112 5111,25\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/63/b7/03/9c/af/33/48/db/af/33/db/ea/b5/78/e0/89/8b6386f2-3bb1-43af-9166-f22caeccb0c6.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1838/1840",
+                "handle": "http://hdl.handle.net/10648/5b43bf5f-c6d0-4cf9-a5c8-5e0309a31bf7",
+                "title": "Bergen op Zoom",
+                "sheet": 49
+            }
+        }
+    ]
+}

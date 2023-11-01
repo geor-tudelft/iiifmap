@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "7.44.9",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/35/41/ee/9e/65/91/4a/36/ad/7f/ff/51/68/4e/f2/c7/9ed53298-1c7c-4333-a4b3-9e6ebc717177.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"3544\" height=\"4959\"><polygon points=\"15,15 15,4959 3544,4959 3544,15\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/35/41/ee/9e/65/91/4a/36/ad/7f/ff/51/68/4e/f2/c7/9ed53298-1c7c-4333-a4b3-9e6ebc717177.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1837/1840",
+                "handle": "http://hdl.handle.net/10648/e3de9512-d8ed-4848-a60c-7b0b4974a6e9",
+                "title": "Geertruidenberg",
+                "sheet": 44
+            }
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.280A",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/ad/20/e1/59/5b/c0/40/2a/80/e5/a9/04/e7/8f/8a/9c/9a3a147f-3114-436d-9c4b-ead7f17b582f.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2958\" height=\"4706\"><polygon points=\"27,23 27,4706 2958,4706 2958,23\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/ad/20/e1/59/5b/c0/40/2a/80/e5/a9/04/e7/8f/8a/9c/9a3a147f-3114-436d-9c4b-ead7f17b582f.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1877/1904",
+                "handle": "http://hdl.handle.net/10648/98559ae1-6eee-5f08-e053-09f0900a86b4",
+                "title": "Beets",
+                "sheet": 280
+            }
+        }
+    ]
+}

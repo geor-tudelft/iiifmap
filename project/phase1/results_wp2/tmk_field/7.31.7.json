@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "7.31.7",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/3d/dd/e4/58/aa/5b/40/67/be/54/44/bf/af/42/85/c1/bd2bb76c-3991-4619-9b62-dac8e96489c0.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"5754\" height=\"4667\"><polygon points=\"30,23 30,4667 5754,4667 5754,23\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/3d/dd/e4/58/aa/5b/40/67/be/54/44/bf/af/42/85/c1/bd2bb76c-3991-4619-9b62-dac8e96489c0.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1849",
+                "handle": "http://hdl.handle.net/10648/dc8a1783-4f74-4938-bbdb-2a42ff253702",
+                "title": "Utrecht",
+                "sheet": 31
+            }
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.388B",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/5a/2c/b2/12/2f/29/40/c0/a1/79/85/4b/af/eb/bf/35/90a084fb-0629-4b1b-9008-b48c3f23cb14.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2973\" height=\"4733\"><polygon points=\"27,22 27,4733 2973,4733 2973,22\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/5a/2c/b2/12/2f/29/40/c0/a1/79/85/4b/af/eb/bf/35/90a084fb-0629-4b1b-9008-b48c3f23cb14.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1928/1929",
+                "handle": "http://hdl.handle.net/10648/98559ae1-7043-5f08-e053-09f0900a86b4",
+                "title": "Eemnes",
+                "sheet": 388
+            }
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "7.38.5",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/ff/8e/76/3d/d0/70/4b/b1/91/d7/33/1c/c0/87/6a/72/bdc47023-59d8-4960-bf23-eaf0dbe33724.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"5950\" height=\"4762\"><polygon points=\"24,32 24,4762 5950,4762 5950,32\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/ff/8e/76/3d/d0/70/4b/b1/91/d7/33/1c/c0/87/6a/72/bdc47023-59d8-4960-bf23-eaf0dbe33724.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1847/1848",
+                "handle": "http://hdl.handle.net/10648/d56153ef-fa19-469c-8e1e-eddd90b3c094",
+                "title": "Gorinchem",
+                "sheet": 38
+            }
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "7.3.8",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/ed/66/32/ef/9f/ee/48/e6/b6/da/49/33/c5/85/b1/95/c2c3058b-65b9-4dc5-acb0-64ec1f5926bc.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"5912\" height=\"4711\"><polygon points=\"48,23 48,4711 5912,4711 5912,23\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/ed/66/32/ef/9f/ee/48/e6/b6/da/49/33/c5/85/b1/95/c2c3058b-65b9-4dc5-acb0-64ec1f5926bc.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1853",
+                "handle": "http://hdl.handle.net/10648/bb698ef0-0570-4fd8-ab32-490e31b83641",
+                "title": "Uithuizen",
+                "sheet": 3
+            }
+        }
+    ]
+}

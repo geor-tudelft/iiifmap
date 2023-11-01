@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.134",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/a8/7f/db/a0/01/08/4b/3c/80/57/b3/93/6b/6f/bd/e1/0ff58507-5a45-4dac-8954-5db06f99a0b0.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2978\" height=\"4732\"><polygon points=\"29,22 29,4732 2978,4732 2978,22\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/a8/7f/db/a0/01/08/4b/3c/80/57/b3/93/6b/6f/bd/e1/0ff58507-5a45-4dac-8954-5db06f99a0b0.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1900",
+                "handle": "http://hdl.handle.net/10648/98559ae1-6db9-5f08-e053-09f0900a86b4",
+                "title": "Zuidlaren",
+                "sheet": 134
+            }
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.413A",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/c4/be/83/7a/12/cf/4b/87/a8/c7/8d/89/f6/69/45/65/da5fcf86-5de4-4ecc-8f28-e1c4678579ed.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2966\" height=\"4738\"><polygon points=\"23,22 23,4738 2966,4738 2966,22\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/c4/be/83/7a/12/cf/4b/87/a8/c7/8d/89/f6/69/45/65/da5fcf86-5de4-4ecc-8f28-e1c4678579ed.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1929",
+                "handle": "http://hdl.handle.net/10648/98559ae1-70a1-5f08-e053-09f0900a86b4",
+                "title": "Voorst",
+                "sheet": 413
+            }
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.194",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/e9/72/5c/dc/8d/23/41/e8/b8/ba/3f/61/cb/28/c2/50/d8a2cadc-55e6-4f3b-a00d-f13552ed8c71.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2972\" height=\"4723\"><polygon points=\"25,23 25,4723 2972,4723 2972,23\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/e9/72/5c/dc/8d/23/41/e8/b8/ba/3f/61/cb/28/c2/50/d8a2cadc-55e6-4f3b-a00d-f13552ed8c71.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1877/1926",
+                "handle": "http://hdl.handle.net/10648/98559ae1-6e37-5f08-e053-09f0900a86b4",
+                "title": "Westerland",
+                "sheet": 194
+            }
+        }
+    ]
+}

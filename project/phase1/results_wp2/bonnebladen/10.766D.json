@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.766D",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/fb/9c/31/ca/68/e6/41/00/8c/d3/4e/e1/05/30/04/a5/c3b67493-0177-4c27-a7e2-84df12c16410.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2970\" height=\"4731\"><polygon points=\"26,26 26,4731 2970,4731 2970,26\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/fb/9c/31/ca/68/e6/41/00/8c/d3/4e/e1/05/30/04/a5/c3b67493-0177-4c27-a7e2-84df12c16410.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1921",
+                "handle": "http://hdl.handle.net/10648/98559ae1-741c-5f08-e053-09f0900a86b4",
+                "title": "Valkenburg",
+                "sheet": 766
+            }
+        }
+    ]
+}

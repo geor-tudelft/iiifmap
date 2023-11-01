@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.127",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/ca/74/44/49/53/de/4f/b8/88/80/50/d6/5e/33/c0/bf/8480a1f9-d9b7-4eb2-8e92-978674e0f652.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2954\" height=\"4733\"><polygon points=\"23,22 23,4733 2954,4733 2954,22\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/ca/74/44/49/53/de/4f/b8/88/80/50/d6/5e/33/c0/bf/8480a1f9-d9b7-4eb2-8e92-978674e0f652.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1904",
+                "handle": "http://hdl.handle.net/10648/98559ae1-6da2-5f08-e053-09f0900a86b4",
+                "title": "Rauwerd",
+                "sheet": 127
+            }
+        }
+    ]
+}

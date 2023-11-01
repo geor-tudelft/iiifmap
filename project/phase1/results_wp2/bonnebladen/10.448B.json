@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.448B",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/4f/6a/d1/a9/9f/de/49/3d/ab/5a/66/ff/28/28/82/85/5443f295-b46d-4c41-aad9-27270afff7e8.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2976\" height=\"4734\"><polygon points=\"21,21 21,4734 2976,4734 2976,21\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/4f/6a/d1/a9/9f/de/49/3d/ab/5a/66/ff/28/28/82/85/5443f295-b46d-4c41-aad9-27270afff7e8.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1926/1941",
+                "handle": "http://hdl.handle.net/10648/98559ae1-712f-5f08-e053-09f0900a86b4",
+                "title": "Scherpenzeel",
+                "sheet": 448
+            }
+        }
+    ]
+}

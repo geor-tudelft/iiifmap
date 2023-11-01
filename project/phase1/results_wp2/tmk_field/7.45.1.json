@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "7.45.1",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/34/24/6c/55/82/e8/49/06/ae/b0/07/cb/1d/96/64/7b/ad4d140b-085a-4a14-985b-933258047ca2.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"5090\" height=\"7183\"><polygon points=\"21,34 21,7183 5090,7183 5090,34\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/34/24/6c/55/82/e8/49/06/ae/b0/07/cb/1d/96/64/7b/ad4d140b-085a-4a14-985b-933258047ca2.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1836/1838",
+                "handle": "http://hdl.handle.net/10648/ede5eb22-cd1b-481b-b482-d6605657299a",
+                "title": "'s-Hertogenbosch",
+                "sheet": 45
+            }
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.562B",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/30/59/9e/47/b4/f5/46/a3/ad/8f/ad/3d/9f/3c/c5/2b/ce536c34-dbc1-4c27-bd17-1166f1c169b8.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2978\" height=\"4720\"><polygon points=\"37,23 37,4720 2978,4720 2978,23\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/30/59/9e/47/b4/f5/46/a3/ad/8f/ad/3d/9f/3c/c5/2b/ce536c34-dbc1-4c27-bd17-1166f1c169b8.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1899",
+                "handle": "http://hdl.handle.net/10648/98559ae1-72bd-5f08-e053-09f0900a86b4",
+                "title": "Zuid Beijerland",
+                "sheet": 562
+            }
+        }
+    ]
+}

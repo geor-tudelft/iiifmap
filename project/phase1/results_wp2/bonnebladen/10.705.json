@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.705",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/77/f8/a0/dd/c4/29/44/3d/99/06/1a/6c/a6/48/da/32/e83b4876-2ebb-46c3-98d8-1c34f32397ca.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2975\" height=\"4731\"><polygon points=\"23,26 23,4731 2975,4731 2975,26\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/77/f8/a0/dd/c4/29/44/3d/99/06/1a/6c/a6/48/da/32/e83b4876-2ebb-46c3-98d8-1c34f32397ca.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1894/1911",
+                "handle": "http://hdl.handle.net/10648/98559ae1-7389-5f08-e053-09f0900a86b4",
+                "title": "Reusel",
+                "sheet": 705
+            }
+        }
+    ]
+}

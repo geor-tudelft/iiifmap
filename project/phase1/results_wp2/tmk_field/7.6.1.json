@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "7.6.1",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/9b/d0/ba/9c/86/11/40/86/85/74/1c/97/3d/66/9f/b6/9b910400-6983-4306-b44a-ee5a4f9635c9.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4934\" height=\"4111\"><polygon points=\"20,3767 20,4111 4934,4111 4934,3767\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/9b/d0/ba/9c/86/11/40/86/85/74/1c/97/3d/66/9f/b6/9b910400-6983-4306-b44a-ee5a4f9635c9.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1854",
+                "handle": "http://hdl.handle.net/10648/62f065c6-ede3-490a-82ed-7001c810aaee",
+                "title": "Leeuwarden",
+                "sheet": 6
+            }
+        }
+    ]
+}

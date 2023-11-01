@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "7.54.2",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/6e/0b/07/e4/81/8e/46/03/b6/71/d3/35/67/09/e4/4a/59568b7d-ba94-4e0e-9bf9-1c2cac05c74b.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"5872\" height=\"4754\"><polygon points=\"48,31 48,4754 5872,4754 5872,31\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/6e/0b/07/e4/81/8e/46/03/b6/71/d3/35/67/09/e4/4a/59568b7d-ba94-4e0e-9bf9-1c2cac05c74b.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1857",
+                "handle": "http://hdl.handle.net/10648/3e3bec8c-54b2-4bc9-a95e-465bdc9cb2e7",
+                "title": "Neuzen",
+                "sheet": 54
+            }
+        }
+    ]
+}

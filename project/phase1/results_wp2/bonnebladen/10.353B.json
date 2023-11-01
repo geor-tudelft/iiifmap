@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.353B",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/90/da/77/d5/41/ab/49/fa/8a/d9/11/08/8d/c0/71/a9/42d5a1e4-55a2-4a68-8dc2-623d657a4610.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2967\" height=\"4730\"><polygon points=\"27,23 27,4730 2967,4730 2967,23\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/90/da/77/d5/41/ab/49/fa/8a/d9/11/08/8d/c0/71/a9/42d5a1e4-55a2-4a68-8dc2-623d657a4610.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1928/1941",
+                "handle": "http://hdl.handle.net/10648/98559ae1-6fb4-5f08-e053-09f0900a86b4",
+                "title": "Hierden",
+                "sheet": 353
+            }
+        }
+    ]
+}

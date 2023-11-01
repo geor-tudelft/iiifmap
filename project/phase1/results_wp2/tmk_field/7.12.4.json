@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "7.12.4",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/94/90/3a/29/44/b1/4e/09/81/9a/2c/27/4a/ce/a7/92/dd541f3b-428a-4869-9c61-8d83c743123e.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4944\" height=\"3900\"><polygon points=\"17,17 17,3900 4944,3900 4944,17\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/94/90/3a/29/44/b1/4e/09/81/9a/2c/27/4a/ce/a7/92/dd541f3b-428a-4869-9c61-8d83c743123e.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1852",
+                "handle": "http://hdl.handle.net/10648/41209ad1-f76a-47d7-867a-fde6c58e5cca",
+                "title": "Assen",
+                "sheet": 12
+            }
+        }
+    ]
+}

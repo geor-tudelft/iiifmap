@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.740",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/9e/0a/00/a1/a5/0c/45/d3/bc/06/32/47/92/ef/be/1b/05097fd5-92f3-4a5d-ba25-c5124cee1597.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2967\" height=\"4722\"><polygon points=\"23,22 23,4722 2967,4722 2967,22\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/9e/0a/00/a1/a5/0c/45/d3/bc/06/32/47/92/ef/be/1b/05097fd5-92f3-4a5d-ba25-c5124cee1597.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1890/1927",
+                "handle": "http://hdl.handle.net/10648/98559ae1-73bf-5f08-e053-09f0900a86b4",
+                "title": "Swalmen",
+                "sheet": 740
+            }
+        }
+    ]
+}

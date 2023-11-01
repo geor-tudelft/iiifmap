@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.355A",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/63/9d/dd/3d/1b/ef/40/24/8f/54/39/12/45/6b/e3/0b/e020b5ca-93fd-484a-a2d3-f6f2c26d3708.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2976\" height=\"4715\"><polygon points=\"22,22 22,4715 2976,4715 2976,22\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/63/9d/dd/3d/1b/ef/40/24/8f/54/39/12/45/6b/e3/0b/e020b5ca-93fd-484a-a2d3-f6f2c26d3708.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/98559ae1-6fbe-5f08-e053-09f0900a86b4",
+                "title": "Epe",
+                "sheet": 355
+            }
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.543A",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/7e/a8/78/7c/e7/73/43/ea/9e/32/2b/8d/ff/95/3f/0b/6629da23-e660-4f02-ae02-1a6154b30832.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2979\" height=\"4726\"><polygon points=\"26,26 26,4726 2979,4726 2979,26\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/7e/a8/78/7c/e7/73/43/ea/9e/32/2b/8d/ff/95/3f/0b/6629da23-e660-4f02-ae02-1a6154b30832.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1889/1893",
+                "handle": "http://hdl.handle.net/10648/98559ae1-7284-5f08-e053-09f0900a86b4",
+                "title": "Zuidland",
+                "sheet": 543
+            }
+        }
+    ]
+}

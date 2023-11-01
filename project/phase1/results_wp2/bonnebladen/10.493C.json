@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.493C",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/55/54/fc/8a/1b/5a/4a/5e/93/92/89/83/b2/17/98/55/e67763dc-0591-4ac8-97a9-ff6d37f8bb96.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2972\" height=\"4733\"><polygon points=\"22,22 22,4733 2972,4733 2972,22\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/55/54/fc/8a/1b/5a/4a/5e/93/92/89/83/b2/17/98/55/e67763dc-0591-4ac8-97a9-ff6d37f8bb96.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/98559ae1-71de-5f08-e053-09f0900a86b4",
+                "title": "Doetinchem",
+                "sheet": 493
+            }
+        }
+    ]
+}

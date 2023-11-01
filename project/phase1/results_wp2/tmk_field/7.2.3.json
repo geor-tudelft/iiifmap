@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "7.2.3",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/4a/ca/55/87/5b/b4/46/90/9a/f7/8b/9c/cd/b0/28/06/74db1f3a-1c5f-4ba9-a9df-872ba8a0f8fe.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"5928\" height=\"4736\"><polygon points=\"19,19 19,4736 5928,4736 5928,19\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/4a/ca/55/87/5b/b4/46/90/9a/f7/8b/9c/cd/b0/28/06/74db1f3a-1c5f-4ba9-a9df-872ba8a0f8fe.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1854/1855",
+                "handle": "http://hdl.handle.net/10648/dc53aed4-367f-473f-8d81-23ab4367f518",
+                "title": "Schiermonnnikoog",
+                "sheet": 2
+            }
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.764",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/0a/ce/d5/29/1d/d4/43/c7/b3/58/42/e8/4b/95/5d/e8/855f4e44-386e-4e8b-9c8f-32f69e77fced.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2977\" height=\"2726\"><polygon points=\"29,26 29,2726 2977,2726 2977,26\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/0a/ce/d5/29/1d/d4/43/c7/b3/58/42/e8/4b/95/5d/e8/855f4e44-386e-4e8b-9c8f-32f69e77fced.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1891",
+                "handle": "http://hdl.handle.net/10648/98559ae1-740f-5f08-e053-09f0900a86b4",
+                "title": "Nieuwenhagen",
+                "sheet": 764
+            }
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.480B",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/3b/83/29/1d/6a/fb/41/70/9a/4b/b6/ee/b0/01/da/e0/d66b83fb-2b70-4024-8ef3-3930f5f4be5c.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2950\" height=\"4749\"><polygon points=\"23,23 23,4749 2950,4749 2950,23\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/3b/83/29/1d/6a/fb/41/70/9a/4b/b6/ee/b0/01/da/e0/d66b83fb-2b70-4024-8ef3-3930f5f4be5c.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1899",
+                "handle": "http://hdl.handle.net/10648/98559ae1-71ab-5f08-e053-09f0900a86b4",
+                "title": "Schipluiden",
+                "sheet": 480
+            }
+        }
+    ]
+}
