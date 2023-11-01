@@ -1,0 +1,113 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.495B",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/59/74/6a/ac/6a/a0/4d/36/b7/f5/e5/ae/ef/e1/97/e7/897d224f-47d8-45ba-841e-f2cd153f169d.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"4758\" height=\"3000\"><polygon points=\"0,0 0,3000 4758,3000 4758,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/59/74/6a/ac/6a/a0/4d/36/b7/f5/e5/ae/ef/e1/97/e7/897d224f-47d8-45ba-841e-f2cd153f169d.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {
+                "type": "FeatureCollection",
+                "transformation": {
+                    "type": "polynomial",
+                    "options": {
+                        "order": 1
+                    }
+                },
+                "features": [
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                0,
+                                3000
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.485198,
+                                51.994325
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                4758,
+                                3000
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.630751,
+                                51.992267
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                0,
+                                0
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.483195,
+                                51.938164
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                4758,
+                                0
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.628566,
+                                51.93611
+                            ]
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "date": "1934/1951",
+                "handle": "http://hdl.handle.net/10648/98559ae1-71e6-5f08-e053-09f0900a86b4",
+                "title": "Lichtenvoorde",
+                "sheet": 495
+            }
+        }
+    ]
+}
