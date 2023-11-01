@@ -46,10 +46,10 @@ sheetnumber = gj["features"][7]["id"]
 coordinates = gj["features"][7]["geometry"]["coordinates"]
 
 # wgs84coord
-a = Wgs84Coordinate(coordinates[0][0], coordinates[0][1])
-b = Wgs84Coordinate(coordinates[1][0], coordinates[1][1])
-c = Wgs84Coordinate(coordinates[2][0], coordinates[2][1])
-d = Wgs84Coordinate(coordinates[3][0], coordinates[3][1])
+a = Wgs84Coordinate(coordinates[0][1], coordinates[0][0])
+b = Wgs84Coordinate(coordinates[1][1], coordinates[1][0])
+c = Wgs84Coordinate(coordinates[2][1], coordinates[2][0])
+d = Wgs84Coordinate(coordinates[3][1], coordinates[3][0])
 # print(sheetnumber)
 # print(a, b, c, d)
 
@@ -63,8 +63,8 @@ br = sheet._mask.bottom_right
 
 gcps = [ControlPoint(tl, a), ControlPoint(tr, b), ControlPoint(bl, c), ControlPoint(br, d)]
 
-# georeference = Georeference(gcps)
-#
-# sheet.set_georeference(georeference)
-# with open("test_10.8.json", 'w') as f:
-#    f.write(sheet.to_annotationpage())
+georeference = Georeference(gcps)
+
+sheet.set_georeference(georeference)
+with open("test_10.8.json", 'w') as f:
+   f.write(sheet.to_annotationpage())
