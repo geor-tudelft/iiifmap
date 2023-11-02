@@ -1,0 +1,113 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.661",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/7d/90/92/32/53/81/44/61/9d/56/8c/4d/d0/60/c6/90/c7cb374e-5ddb-4eff-b3b3-7ddb4ee2e836.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2965\" height=\"4731\"><polygon points=\"29,25 29,4731 2965,4731 2965,25\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/7d/90/92/32/53/81/44/61/9d/56/8c/4d/d0/60/c6/90/c7cb374e-5ddb-4eff-b3b3-7ddb4ee2e836.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {
+                "type": "FeatureCollection",
+                "transformation": {
+                    "type": "polynomial",
+                    "options": {
+                        "order": 1
+                    }
+                },
+                "features": [
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                29,
+                                25
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                4.163468,
+                                51.497376
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2965,
+                                25
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                4.30747,
+                                51.498169
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2965,
+                                4731
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                4.308175,
+                                51.441993
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                29,
+                                4731
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                4.16435,
+                                51.4412
+                            ]
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "date": "1893/1908",
+                "handle": "http://hdl.handle.net/10648/98559ae1-734e-5f08-e053-09f0900a86b4",
+                "title": "Bergen op Zoom",
+                "sheet": 661
+            }
+        }
+    ]
+}

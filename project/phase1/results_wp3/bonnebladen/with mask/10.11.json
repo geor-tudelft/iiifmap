@@ -1,0 +1,113 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.11",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/67/9d/30/d8/1d/ce/42/f0/be/ab/ac/dc/7a/3a/cc/5a/9aee7c47-1194-4514-9461-bbc0874803a1.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2976\" height=\"4747\"><polygon points=\"28,27 28,4747 2976,4747 2976,27\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/67/9d/30/d8/1d/ce/42/f0/be/ab/ac/dc/7a/3a/cc/5a/9aee7c47-1194-4514-9461-bbc0874803a1.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {
+                "type": "FeatureCollection",
+                "transformation": {
+                    "type": "polynomial",
+                    "options": {
+                        "order": 1
+                    }
+                },
+                "features": [
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                28,
+                                27
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.845809,
+                                53.562136
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2976,
+                                27
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.996665,
+                                53.559635
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2976,
+                                4747
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.99387,
+                                53.503499
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                28,
+                                4747
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.843213,
+                                53.505997
+                            ]
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "date": "1902",
+                "handle": "http://hdl.handle.net/10648/98559ae1-6d02-5f08-e053-09f0900a86b4",
+                "title": "Ransel",
+                "sheet": 11
+            }
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.290A",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/ea/06/32/bd/9d/41/49/cd/81/fc/cd/e8/1c/22/24/cb/e58038f5-8e3e-4e80-95cc-1d1720456e8b.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2983\" height=\"4732\"><polygon points=\"32,25 2983,25 2983,4732 32,4732\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/ea/06/32/bd/9d/41/49/cd/81/fc/cd/e8/1c/22/24/cb/e58038f5-8e3e-4e80-95cc-1d1720456e8b.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {
+                "type": "FeatureCollection",
+                "transformation": {
+                    "type": "polynomial",
+                    "options": {
+                        "order": 1
+                    }
+                },
+                "features": [
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                32,
+                                25
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.360063,
+                                52.613955
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                32,
+                                4732
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.507667,
+                                52.61205
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2983,
+                                4732
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.505591,
+                                52.555896
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2983,
+                                25
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.358175,
+                                52.557798
+                            ]
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "date": "1933/1935",
+                "handle": "http://hdl.handle.net/10648/98559ae1-6f01-5f08-e053-09f0900a86b4",
+                "title": "Dedemsvaart",
+                "sheet": 290
+            }
+        }
+    ]
+}
