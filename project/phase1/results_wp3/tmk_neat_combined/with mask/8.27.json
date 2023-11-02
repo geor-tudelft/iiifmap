@@ -1,0 +1,113 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "8.27",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/ff/16/44/8e/cf/e1/41/bb/81/fb/f4/1e/d3/69/fe/fc/0ce527c8-ddae-4d05-a6e4-51bbee6f55d3.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"9533\" height=\"6042\"><polygon points=\"151,151 151,6042 9533,6042 9533,151\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/ff/16/44/8e/cf/e1/41/bb/81/fb/f4/1e/d3/69/fe/fc/0ce527c8-ddae-4d05-a6e4-51bbee6f55d3.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {
+                "type": "FeatureCollection",
+                "transformation": {
+                    "type": "polynomial",
+                    "options": {
+                        "order": 1
+                    }
+                },
+                "features": [
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                151,
+                                151
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                5.76682,
+                                52.484967
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                9533,
+                                151
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.355542,
+                                52.479178
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                9533,
+                                6042
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.348086,
+                                52.254544
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                151,
+                                6042
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                5.762342,
+                                52.260304
+                            ]
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/c42dca5b-b9fb-4f1a-e053-09f0900a3dee",
+                "title": "Hattem",
+                "sheet": 27
+            }
+        }
+    ]
+}

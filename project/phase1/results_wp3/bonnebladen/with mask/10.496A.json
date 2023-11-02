@@ -1,0 +1,113 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.496A",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/88/9b/8a/4a/c1/89/4c/10/b4/be/dd/9c/8d/cb/bc/0b/b53dab17-9dc8-46c5-a16c-d9cc89d11aba.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"3184\" height=\"4931\"><polygon points=\"26,24 26,4931 3184,4931 3184,24\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/88/9b/8a/4a/c1/89/4c/10/b4/be/dd/9c/8d/cb/bc/0b/b53dab17-9dc8-46c5-a16c-d9cc89d11aba.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {
+                "type": "FeatureCollection",
+                "transformation": {
+                    "type": "polynomial",
+                    "options": {
+                        "order": 1
+                    }
+                },
+                "features": [
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                26,
+                                24
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.630751,
+                                51.992267
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                3184,
+                                24
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.77629,
+                                51.990032
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                3184,
+                                4931
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.773924,
+                                51.933877
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                26,
+                                4931
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.628566,
+                                51.93611
+                            ]
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/98559ae1-71e9-5f08-e053-09f0900a86b4",
+                "title": "Winterswijk",
+                "sheet": 496
+            }
+        }
+    ]
+}

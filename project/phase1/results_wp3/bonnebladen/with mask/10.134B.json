@@ -1,0 +1,113 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.134B",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/5d/a1/74/d2/b5/c5/47/5e/94/37/fd/92/2b/e0/b2/97/3469b8bd-7107-4e9a-badd-f268b5a7faee.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2971\" height=\"4735\"><polygon points=\"21,22 2971,22 2971,4735 21,4735\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/5d/a1/74/d2/b5/c5/47/5e/94/37/fd/92/2b/e0/b2/97/3469b8bd-7107-4e9a-badd-f268b5a7faee.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {
+                "type": "FeatureCollection",
+                "transformation": {
+                    "type": "polynomial",
+                    "options": {
+                        "order": 1
+                    }
+                },
+                "features": [
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                21,
+                                22
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.675983,
+                                53.115302
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                21,
+                                4735
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.825281,
+                                53.11301
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2971,
+                                4735
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.822754,
+                                53.056866
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2971,
+                                22
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.673649,
+                                53.059156
+                            ]
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "date": "1937/1940",
+                "handle": "http://hdl.handle.net/10648/98559ae1-6dbb-5f08-e053-09f0900a86b4",
+                "title": "Zuidlaren",
+                "sheet": 134
+            }
+        }
+    ]
+}

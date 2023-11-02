@@ -1,0 +1,113 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.601",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/70/6f/43/f9/0a/03/42/2c/85/3a/d3/f4/43/f9/63/c3/b0d22da4-85c7-49b7-a5dc-5b43cc563ae7.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2965\" height=\"4716\"><polygon points=\"21,21 21,4716 2965,4716 2965,21\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/70/6f/43/f9/0a/03/42/2c/85/3a/d3/f4/43/f9/63/c3/b0d22da4-85c7-49b7-a5dc-5b43cc563ae7.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {
+                "type": "FeatureCollection",
+                "transformation": {
+                    "type": "polynomial",
+                    "options": {
+                        "order": 1
+                    }
+                },
+                "features": [
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                21,
+                                21
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                4.30534,
+                                51.666697
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2965,
+                                21
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                4.44988,
+                                51.667316
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2965,
+                                4716
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                4.450414,
+                                51.61114
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                21,
+                                4716
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                4.306052,
+                                51.610521
+                            ]
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "date": "1868/1893",
+                "handle": "http://hdl.handle.net/10648/98559ae1-72f7-5f08-e053-09f0900a86b4",
+                "title": "Dinteloord",
+                "sheet": 601
+            }
+        }
+    ]
+}

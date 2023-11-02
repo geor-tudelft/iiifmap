@@ -1,0 +1,113 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.226",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/5a/6e/7d/cc/f6/e1/41/a2/8b/bd/a5/3b/23/69/55/8d/87e8d405-d6c1-45c7-b20f-45ded08e789e.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2974\" height=\"4740\"><polygon points=\"25,23 2974,23 2974,4740 25,4740\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/5a/6e/7d/cc/f6/e1/41/a2/8b/bd/a5/3b/23/69/55/8d/87e8d405-d6c1-45c7-b20f-45ded08e789e.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {
+                "type": "FeatureCollection",
+                "transformation": {
+                    "type": "polynomial",
+                    "options": {
+                        "order": 1
+                    }
+                },
+                "features": [
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                25,
+                                23
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.961047,
+                                52.829827
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                25,
+                                4740
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                7.109348,
+                                52.827185
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2974,
+                                4740
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                7.106481,
+                                52.771045
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2974,
+                                23
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.95837,
+                                52.773684
+                            ]
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "date": "1902/1935",
+                "handle": "http://hdl.handle.net/10648/98559ae1-6e76-5f08-e053-09f0900a86b4",
+                "title": "Emmer Compascuum",
+                "sheet": 226
+            }
+        }
+    ]
+}

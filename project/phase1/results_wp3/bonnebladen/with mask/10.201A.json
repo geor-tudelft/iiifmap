@@ -1,0 +1,113 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.201A",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/64/10/46/a6/d6/6d/43/01/84/e0/92/1b/d1/16/fb/ca/e4d4716c-9b7f-4890-9234-b2768f11f2ad.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2973\" height=\"4735\"><polygon points=\"22,22 22,4735 2973,4735 2973,22\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/64/10/46/a6/d6/6d/43/01/84/e0/92/1b/d1/16/fb/ca/e4d4716c-9b7f-4890-9234-b2768f11f2ad.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {
+                "type": "FeatureCollection",
+                "transformation": {
+                    "type": "polynomial",
+                    "options": {
+                        "order": 1
+                    }
+                },
+                "features": [
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                22,
+                                22
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                5.92386,
+                                52.899384
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2973,
+                                22
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.07245,
+                                52.898014
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2973,
+                                4735
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.070914,
+                                52.841857
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                22,
+                                4735
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                5.922516,
+                                52.843224
+                            ]
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "date": "1921/1932",
+                "handle": "http://hdl.handle.net/10648/98559ae1-6e41-5f08-e053-09f0900a86b4",
+                "title": "Wolvega",
+                "sheet": 201
+            }
+        }
+    ]
+}

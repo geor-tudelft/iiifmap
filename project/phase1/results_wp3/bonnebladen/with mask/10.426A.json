@@ -1,0 +1,113 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.426A",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/f2/ef/e2/45/9c/92/4a/0d/ac/fa/55/ab/a3/33/6d/d6/4b64e492-55e3-4706-ae26-8ebe9a5f80ed.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2952\" height=\"4747\"><polygon points=\"23,21 23,4747 2952,4747 2952,21\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/f2/ef/e2/45/9c/92/4a/0d/ac/fa/55/ab/a3/33/6d/d6/4b64e492-55e3-4706-ae26-8ebe9a5f80ed.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {
+                "type": "FeatureCollection",
+                "transformation": {
+                    "type": "polynomial",
+                    "options": {
+                        "order": 1
+                    }
+                },
+                "features": [
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                23,
+                                21
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                5.029711,
+                                52.173585
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2952,
+                                21
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                5.175889,
+                                52.173314
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2952,
+                                4747
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                5.17552,
+                                52.117143
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                23,
+                                4747
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                5.029525,
+                                52.117413
+                            ]
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "date": "1900/1902",
+                "handle": "http://hdl.handle.net/10648/98559ae1-70d2-5f08-e053-09f0900a86b4",
+                "title": "Maarssen",
+                "sheet": 426
+            }
+        }
+    ]
+}

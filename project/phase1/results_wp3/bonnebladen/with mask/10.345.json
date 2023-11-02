@@ -1,0 +1,113 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.345",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/47/82/23/89/65/c1/4f/b7/97/9f/ea/58/4c/98/c0/93/4a52ebea-65f5-4a81-8ea9-2a8536bc1a63.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2967\" height=\"4725\"><polygon points=\"23,22 23,4725 2967,4725 2967,22\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/47/82/23/89/65/c1/4f/b7/97/9f/ea/58/4c/98/c0/93/4a52ebea-65f5-4a81-8ea9-2a8536bc1a63.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {
+                "type": "FeatureCollection",
+                "transformation": {
+                    "type": "polynomial",
+                    "options": {
+                        "order": 1
+                    }
+                },
+                "features": [
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                23,
+                                22
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                4.442781,
+                                52.397554
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2967,
+                                22
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                4.589699,
+                                52.398003
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2967,
+                                4725
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                4.590069,
+                                52.341833
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                23,
+                                4725
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                4.443338,
+                                52.341385
+                            ]
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "date": "1876",
+                "handle": "http://hdl.handle.net/10648/98559ae1-6f9a-5f08-e053-09f0900a86b4",
+                "title": "Zandvoort",
+                "sheet": 345
+            }
+        }
+    ]
+}

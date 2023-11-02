@@ -1,0 +1,113 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.766B",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/e8/df/c7/3c/53/37/49/24/97/b9/66/71/95/99/3f/15/82798146-77b6-4d70-b1a6-9d6170a56c47.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2974\" height=\"4734\"><polygon points=\"23,23 23,4734 2974,4734 2974,23\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/e8/df/c7/3c/53/37/49/24/97/b9/66/71/95/99/3f/15/82798146-77b6-4d70-b1a6-9d6170a56c47.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {
+                "type": "FeatureCollection",
+                "transformation": {
+                    "type": "polynomial",
+                    "options": {
+                        "order": 1
+                    }
+                },
+                "features": [
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                23,
+                                23
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                5.73605,
+                                50.878432
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2974,
+                                23
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                5.878127,
+                                50.877297
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2974,
+                                4734
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                5.876931,
+                                50.821117
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                23,
+                                4734
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                5.735024,
+                                50.822252
+                            ]
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "date": "1907/1924",
+                "handle": "http://hdl.handle.net/10648/98559ae1-741d-5f08-e053-09f0900a86b4",
+                "title": "Valkenburg",
+                "sheet": 766
+            }
+        }
+    ]
+}

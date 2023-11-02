@@ -1,0 +1,113 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.739",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/c9/40/c0/c3/e7/40/4c/f5/b9/90/71/00/74/02/88/70/ea652c9e-a1eb-47e2-a6d2-dd3a407ef57f.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2969\" height=\"4726\"><polygon points=\"23,22 23,4726 2969,4726 2969,22\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/c9/40/c0/c3/e7/40/4c/f5/b9/90/71/00/74/02/88/70/ea652c9e-a1eb-47e2-a6d2-dd3a407ef57f.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {
+                "type": "FeatureCollection",
+                "transformation": {
+                    "type": "polynomial",
+                    "options": {
+                        "order": 1
+                    }
+                },
+                "features": [
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                23,
+                                22
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                5.886606,
+                                51.270536
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2969,
+                                22
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.029884,
+                                51.269215
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2969,
+                                4726
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.028487,
+                                51.213041
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                23,
+                                4726
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                5.885383,
+                                51.214361
+                            ]
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "date": "1890/1928",
+                "handle": "http://hdl.handle.net/10648/98559ae1-73bc-5f08-e053-09f0900a86b4",
+                "title": "Buggenum",
+                "sheet": 739
+            }
+        }
+    ]
+}

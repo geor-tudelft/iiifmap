@@ -1,0 +1,113 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.227",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/f5/05/de/26/2d/ad/4b/1d/b6/3a/2b/95/76/ec/50/a2/e201686b-067a-4239-b23b-303a57c69ea5.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2967\" height=\"4728\"><polygon points=\"21,22 21,4728 2967,4728 2967,22\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/f5/05/de/26/2d/ad/4b/1d/b6/3a/2b/95/76/ec/50/a2/e201686b-067a-4239-b23b-303a57c69ea5.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {
+                "type": "FeatureCollection",
+                "transformation": {
+                    "type": "polynomial",
+                    "options": {
+                        "order": 1
+                    }
+                },
+                "features": [
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                21,
+                                22
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                4.58707,
+                                52.791174
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2967,
+                                22
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                4.73531,
+                                52.791445
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2967,
+                                4728
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                4.735499,
+                                52.735279
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                21,
+                                4728
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                4.587449,
+                                52.735008
+                            ]
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "date": "1877/1914",
+                "handle": "http://hdl.handle.net/10648/98559ae1-6e77-5f08-e053-09f0900a86b4",
+                "title": "Petten",
+                "sheet": 227
+            }
+        }
+    ]
+}

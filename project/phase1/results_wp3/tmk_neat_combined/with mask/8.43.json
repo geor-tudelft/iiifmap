@@ -1,0 +1,113 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "8.43",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/45/08/d3/69/fe/d2/43/c1/86/78/28/47/13/24/e1/83/bbd41bb0-be64-48c6-99c7-5e47bb82b464.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"10267\" height=\"6848\"><polygon points=\"0,0 0,6848 10267,6848 10267,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/45/08/d3/69/fe/d2/43/c1/86/78/28/47/13/24/e1/83/bbd41bb0-be64-48c6-99c7-5e47bb82b464.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {
+                "type": "FeatureCollection",
+                "transformation": {
+                    "type": "polynomial",
+                    "options": {
+                        "order": 1
+                    }
+                },
+                "features": [
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                0,
+                                0
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                4.013479,
+                                51.810973
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                10267,
+                                0
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                4.593494,
+                                51.813814
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                10267,
+                                6848
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                4.59492,
+                                51.58911
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                0,
+                                6848
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                4.017771,
+                                51.586283
+                            ]
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "date": "",
+                "handle": "http://hdl.handle.net/10648/c42dca5b-bb5b-4f1a-e053-09f0900a3dee",
+                "title": "Willemstad",
+                "sheet": 43
+            }
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.56A",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/c3/5a/20/8a/82/38/42/13/b8/c3/bc/99/2e/42/1b/d8/99f4554b-0638-4392-a4bf-7d1b0e12e3f8.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2969\" height=\"4735\"><polygon points=\"26,26 26,4735 2969,4735 2969,26\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/c3/5a/20/8a/82/38/42/13/b8/c3/bc/99/2e/42/1b/d8/99f4554b-0638-4392-a4bf-7d1b0e12e3f8.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {
+                "type": "FeatureCollection",
+                "transformation": {
+                    "type": "polynomial",
+                    "options": {
+                        "order": 1
+                    }
+                },
+                "features": [
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                26,
+                                26
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                5.484291,
+                                53.351685
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2969,
+                                26
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                5.634462,
+                                53.350854
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2969,
+                                4735
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                5.633474,
+                                53.294696
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                26,
+                                4735
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                5.483501,
+                                53.295526
+                            ]
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "date": "1928/1930",
+                "handle": "http://hdl.handle.net/10648/98559ae1-6d32-5f08-e053-09f0900a86b4",
+                "title": "Abt",
+                "sheet": 56
+            }
+        }
+    ]
+}

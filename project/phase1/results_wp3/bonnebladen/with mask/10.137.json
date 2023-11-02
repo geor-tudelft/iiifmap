@@ -1,0 +1,113 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.137",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/31/4b/e3/13/07/f2/40/e9/ad/be/b6/ba/a8/6b/1d/3e/7095532e-779b-4267-9283-3f87f4b0642e.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2978\" height=\"4734\"><polygon points=\"29,21 2978,21 2978,4734 29,4734\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/31/4b/e3/13/07/f2/40/e9/ad/be/b6/ba/a8/6b/1d/3e/7095532e-779b-4267-9283-3f87f4b0642e.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {
+                "type": "FeatureCollection",
+                "transformation": {
+                    "type": "polynomial",
+                    "options": {
+                        "order": 1
+                    }
+                },
+                "features": [
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                29,
+                                21
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                7.123827,
+                                53.107876
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                29,
+                                4734
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                7.273072,
+                                53.105034
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2978,
+                                4734
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                7.269963,
+                                53.048901
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2978,
+                                21
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                7.120912,
+                                53.051739
+                            ]
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "date": "1902/1932",
+                "handle": "http://hdl.handle.net/10648/98559ae1-6dc2-5f08-e053-09f0900a86b4",
+                "title": "Vrieschelo",
+                "sheet": 137
+            }
+        }
+    ]
+}

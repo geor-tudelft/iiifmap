@@ -1,0 +1,39 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.343",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/b8/04/0a/ee/d2/da/48/11/95/1d/51/10/f7/6e/81/50/390b35fc-45d3-4770-8a76-161c0342932b.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2968\" height=\"4740\"><polygon points=\"22,27 2968,27 2968,4740 22,4740\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/b8/04/0a/ee/d2/da/48/11/95/1d/51/10/f7/6e/81/50/390b35fc-45d3-4770-8a76-161c0342932b.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {},
+            "metadata": {
+                "date": "1901/1922",
+                "handle": "http://hdl.handle.net/10648/98559ae1-6f92-5f08-e053-09f0900a86b4",
+                "title": "Ootmarsum",
+                "sheet": 343
+            }
+        }
+    ]
+}

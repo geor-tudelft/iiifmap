@@ -1,0 +1,113 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.525",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/a1/ff/48/8a/3e/98/4f/18/a6/60/4d/64/76/17/01/eb/c0a86b9b-c840-4506-b1a7-e8b63c50dbf8.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2979\" height=\"4723\"><polygon points=\"39,26 39,4723 2979,4723 2979,26\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/a1/ff/48/8a/3e/98/4f/18/a6/60/4d/64/76/17/01/eb/c0a86b9b-c840-4506-b1a7-e8b63c50dbf8.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {
+                "type": "FeatureCollection",
+                "transformation": {
+                    "type": "polynomial",
+                    "options": {
+                        "order": 1
+                    }
+                },
+                "features": [
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                39,
+                                26
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                4.592991,
+                                51.892458
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2979,
+                                26
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                4.738256,
+                                51.892724
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2979,
+                                4723
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                4.738435,
+                                51.836549
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                39,
+                                4723
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                4.593351,
+                                51.836284
+                            ]
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "date": "1874",
+                "handle": "http://hdl.handle.net/10648/98559ae1-724b-5f08-e053-09f0900a86b4",
+                "title": "Alblasserdam",
+                "sheet": 525
+            }
+        }
+    ]
+}

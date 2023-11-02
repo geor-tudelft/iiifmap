@@ -1,0 +1,113 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.189A",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/3e/d0/75/84/ff/79/4a/10/96/1f/ef/41/b6/8c/34/da/468cfca8-098a-4eb2-a213-d5fe5dd6dba8.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2963\" height=\"4722\"><polygon points=\"24,24 2963,24 2963,4722 24,4722\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/3e/d0/75/84/ff/79/4a/10/96/1f/ef/41/b6/8c/34/da/468cfca8-098a-4eb2-a213-d5fe5dd6dba8.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {
+                "type": "FeatureCollection",
+                "transformation": {
+                    "type": "polynomial",
+                    "options": {
+                        "order": 1
+                    }
+                },
+                "features": [
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                24,
+                                24
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.817724,
+                                52.944578
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                24,
+                                4722
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.966426,
+                                52.942112
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2963,
+                                4722
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.963732,
+                                52.88597
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2963,
+                                24
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.815222,
+                                52.888433
+                            ]
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "date": "1899",
+                "handle": "http://hdl.handle.net/10648/98559ae1-6e30-5f08-e053-09f0900a86b4",
+                "title": "Buinen",
+                "sheet": 189
+            }
+        }
+    ]
+}

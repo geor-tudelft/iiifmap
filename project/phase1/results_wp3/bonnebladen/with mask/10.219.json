@@ -1,0 +1,113 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.219",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/b2/6d/31/2c/00/de/4c/6c/b9/d4/ba/be/98/2d/23/40/5b3c31e7-de3c-4fb5-a30c-a1e1dd28cb4a.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2981\" height=\"4795\"><polygon points=\"25,23 2981,23 2981,4795 25,4795\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/b2/6d/31/2c/00/de/4c/6c/b9/d4/ba/be/98/2d/23/40/5b3c31e7-de3c-4fb5-a30c-a1e1dd28cb4a.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {
+                "type": "FeatureCollection",
+                "transformation": {
+                    "type": "polynomial",
+                    "options": {
+                        "order": 1
+                    }
+                },
+                "features": [
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                25,
+                                23
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                5.922516,
+                                52.843224
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                25,
+                                4795
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.070914,
+                                52.841857
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2981,
+                                4795
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.069382,
+                                52.785698
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2981,
+                                23
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                5.921175,
+                                52.787064
+                            ]
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "date": "1904",
+                "handle": "http://hdl.handle.net/10648/98559ae1-6e61-5f08-e053-09f0900a86b4",
+                "title": "Oldemarkt",
+                "sheet": 219
+            }
+        }
+    ]
+}

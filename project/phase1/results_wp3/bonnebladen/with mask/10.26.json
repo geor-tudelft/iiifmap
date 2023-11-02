@@ -1,0 +1,113 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.26",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/5d/b0/c6/d9/d6/bc/4e/8b/be/2a/34/1b/ff/a5/97/a4/7a62c0d6-6674-49bb-bf5f-8f5068a99c43.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2960\" height=\"4725\"><polygon points=\"24,23 2960,23 2960,4725 24,4725\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/5d/b0/c6/d9/d6/bc/4e/8b/be/2a/34/1b/ff/a5/97/a4/7a62c0d6-6674-49bb-bf5f-8f5068a99c43.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {
+                "type": "FeatureCollection",
+                "transformation": {
+                    "type": "polynomial",
+                    "options": {
+                        "order": 1
+                    }
+                },
+                "features": [
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                24,
+                                23
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                5.48588,
+                                53.464001
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                24,
+                                4725
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                5.636446,
+                                53.463168
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2960,
+                                4725
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                5.635452,
+                                53.407011
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2960,
+                                23
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                5.485084,
+                                53.407843
+                            ]
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "date": "1927/1928",
+                "handle": "http://hdl.handle.net/10648/98559ae1-6d10-5f08-e053-09f0900a86b4",
+                "title": "Hollumerduinen",
+                "sheet": 26
+            }
+        }
+    ]
+}

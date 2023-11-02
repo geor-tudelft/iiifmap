@@ -1,0 +1,113 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.193",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/dd/ac/8f/f5/1d/d7/49/78/a0/bd/2c/82/6b/55/24/8d/50a25353-8607-43fd-a218-bce22abd004d.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2964\" height=\"4736\"><polygon points=\"24,37 24,4736 2964,4736 2964,37\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/dd/ac/8f/f5/1d/d7/49/78/a0/bd/2c/82/6b/55/24/8d/50a25353-8607-43fd-a218-bce22abd004d.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {
+                "type": "FeatureCollection",
+                "transformation": {
+                    "type": "polynomial",
+                    "options": {
+                        "order": 1
+                    }
+                },
+                "features": [
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                24,
+                                37
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                4.734931,
+                                52.903775
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2964,
+                                37
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                4.883556,
+                                52.903865
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2964,
+                                4736
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                4.883554,
+                                52.8477
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                24,
+                                4736
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                4.735121,
+                                52.84761
+                            ]
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "date": "1877/1916",
+                "handle": "http://hdl.handle.net/10648/98559ae1-6e35-5f08-e053-09f0900a86b4",
+                "title": "Anna Paulowna",
+                "sheet": 193
+            }
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.714",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/b1/ad/8e/2e/f5/22/43/a3/84/e6/ac/07/6e/f8/d4/c6/84ee495e-2f10-4738-9b34-a2f14e237e70.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2979\" height=\"4743\"><polygon points=\"28,24 28,4743 2979,4743 2979,24\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/b1/ad/8e/2e/f5/22/43/a3/84/e6/ac/07/6e/f8/d4/c6/84ee495e-2f10-4738-9b34-a2f14e237e70.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {
+                "type": "FeatureCollection",
+                "transformation": {
+                    "type": "polynomial",
+                    "options": {
+                        "order": 1
+                    }
+                },
+                "features": [
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                28,
+                                24
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                3.305419,
+                                51.320402
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2979,
+                                24
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                3.448843,
+                                51.32225
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2979,
+                                4743
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                3.450591,
+                                51.26608
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                28,
+                                4743
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                3.307341,
+                                51.264235
+                            ]
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "date": "1909",
+                "handle": "http://hdl.handle.net/10648/98559ae1-739a-5f08-e053-09f0900a86b4",
+                "title": "Sluis",
+                "sheet": 714
+            }
+        }
+    ]
+}

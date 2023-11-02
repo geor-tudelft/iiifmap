@@ -1,0 +1,113 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.420B",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/4a/7f/f2/4a/0a/05/40/59/9d/65/86/6e/ec/53/16/bb/31ff1ce5-2ba8-4ef3-ad83-670d014843a7.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2981\" height=\"4743\"><polygon points=\"27,25 2981,25 2981,4743 27,4743\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/4a/7f/f2/4a/0a/05/40/59/9d/65/86/6e/ec/53/16/bb/31ff1ce5-2ba8-4ef3-ad83-670d014843a7.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {
+                "type": "FeatureCollection",
+                "transformation": {
+                    "type": "polynomial",
+                    "options": {
+                        "order": 1
+                    }
+                },
+                "features": [
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                27,
+                                25
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                4.152658,
+                                52.171443
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                27,
+                                4743
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                4.298825,
+                                52.172249
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2981,
+                                4743
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                4.299559,
+                                52.116078
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2981,
+                                25
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                4.153575,
+                                52.115274
+                            ]
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "date": "1933",
+                "handle": "http://hdl.handle.net/10648/98559ae1-70be-5f08-e053-09f0900a86b4",
+                "title": "Artillerieproefveld",
+                "sheet": 420
+            }
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "10.546",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/f9/59/7b/69/81/68/49/42/a5/22/a0/d1/d8/13/e1/60/201c51ae-d8f8-4adb-8a9f-31e2883a3324.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"2972\" height=\"4724\"><polygon points=\"31,31 31,4724 2972,4724 2972,31\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/f9/59/7b/69/81/68/49/42/a5/22/a0/d1/d8/13/e1/60/201c51ae-d8f8-4adb-8a9f-31e2883a3324.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {
+                "type": "FeatureCollection",
+                "transformation": {
+                    "type": "polynomial",
+                    "options": {
+                        "order": 1
+                    }
+                },
+                "features": [
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                31,
+                                31
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                4.593351,
+                                51.836284
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2972,
+                                31
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                4.738435,
+                                51.836549
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2972,
+                                4724
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                4.738613,
+                                51.780374
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                31,
+                                4724
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                4.593709,
+                                51.780109
+                            ]
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "date": "1874/1886",
+                "handle": "http://hdl.handle.net/10648/98559ae1-728f-5f08-e053-09f0900a86b4",
+                "title": "Dordrecht",
+                "sheet": 546
+            }
+        }
+    ]
+}
