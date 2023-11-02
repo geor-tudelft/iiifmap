@@ -58,20 +58,28 @@ def _find_matches(image: "Cv2Image", reference_image: "Cv2Image") -> tuple[np.nd
 
     return match_locations_on_image, match_locations_on_reference
 
-def _filter_matches_geometrically(matches: tuple[np.ndarray, np.ndarray]) -> tuple[np.ndarray, np.ndarray]:
+def _filter_matches_geometrically(matches: tuple[np.ndarray, np.ndarray], keep_best=-1) -> tuple[np.ndarray, np.ndarray]:
     # Code adapted from https://github.com/lan-cz/cnn-matching
     # LAN Chaozhen, LU Wanjie, YU Junming, XU Qing. Deep learning algorithm for feature matching of cross modality
     # remote sensing images[J]. Acta Geodaetica et Cartographica Sinica, 2021, 50(2): 189-202.
 
-    _, inliers = measure.ransac(
+    model, inliers = measure.ransac(
         matches,
         transform.AffineTransform,
         min_samples=3,
         residual_threshold=_RESIDUAL_THRESHOLD,
         max_trials=1000,
     )
+
     inlier_idxs = np.nonzero(inliers)[0]
-    return matches[0][inlier_idxs], matches[1][inlier_idxs]
+    matches_filtered = matches[0][inlier_idxs], matches[1][inlier_idxs]
+
+    if keep_best != -1:
+        residuals = model.residuals(matches_filtered[0], matches_filtered[1])
+        sorted_idxs = np.argsort(residuals)[:keep_best]
+        matches_filtered = (matches_filtered[0][sorted_idxs], matches_filtered[1][sorted_idxs])
+
+    return matches_filtered
 
 def _controlpoints_from_matches(matches: tuple[np.ndarray, np.ndarray], reference_georeference: "Georeference") -> list["ControlPoint"]:
     controlpoints = []
@@ -90,7 +98,7 @@ def get_georeference_from_mapsheet_matches(mapsheet: "MapSheet", georeferenced_m
     reference_image = georeferenced_mapsheet.get_image(resolution=Resolution.MAX)
 
     matches = _find_matches(mapsheet_image, reference_image)
-    matches_filtered = _filter_matches_geometrically(matches)
+    matches_filtered = _filter_matches_geometrically(matches, keep_best=30)
     controlpoints = _controlpoints_from_matches(matches_filtered, georeferenced_mapsheet._georeference)
 
     return Georeference(controlpoints)
@@ -122,7 +130,3 @@ class GeoreferenceMatchFinder:
         controlpoints = _controlpoints_from_matches(matches_refined_filtered, reference_cropped_georeference)
 
         return Georeference(controlpoints)
-
-
-
-
