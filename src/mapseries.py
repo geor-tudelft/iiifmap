@@ -72,12 +72,19 @@ class MapSeries:
         return self
 
     def to_annotationpage(self, indent=4) -> str:
+        annotations = []
+        for sheet in self.mapsheets:
+            if not sheet._georeference:
+                logging.warning(f"Could not export sheet {sheet.id} to annotationpage because it's missing a georeference.")
+                continue
+            annotations.append(sheet.to_annotation())
+
         annotationpage = {
             "type": "AnnotationPage",
             "@context": [
                 "http://www.w3.org/ns/anno.jsonld"
             ],
-            "items": [sheet.to_annotation() for sheet in self.mapsheets]
+            "items": annotations
         }
 
         return json.dumps(annotationpage, indent=indent)
