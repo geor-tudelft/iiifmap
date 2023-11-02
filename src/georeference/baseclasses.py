@@ -15,7 +15,7 @@ class ControlPoint:
     @classmethod
     def from_geojson_feature(cls, feature: Dict) -> "ControlPoint":
         pixel_coords = PixelCoordinate(*feature["properties"]["pixelCoords"])
-        coordinates = Wgs84Coordinate(*feature["geometry"]["coordinates"])
+        coordinates = Wgs84Coordinate(feature["geometry"]["coordinates"][1], feature["geometry"]["coordinates"][0])
         return cls(pixel_coords, coordinates)
 
     def as_geojson_feature(self) -> Dict:
