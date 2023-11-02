@@ -1,3 +1,4 @@
+import logging
 from io import BytesIO
 from typing import TYPE_CHECKING, Any, Union
 
@@ -9,6 +10,7 @@ import json
 from matplotlib import pyplot as plt
 
 from .mask.baseclass import RectangleMask
+
 if TYPE_CHECKING:
     from .custom_types import Cv2Image
 
@@ -96,18 +98,21 @@ class MapSheet:
     _georeference: Union["Georeference", None]
     metadata: dict[str, Any]
 
-    def __init__(self, image_endpoint: str) -> None:
+    def __init__(self, image_endpoint: str, create_mask=True) -> None:
         self.id = "Untitled MapSheet"
         self._image_endpoint = image_endpoint
         self.metadata = {}
         self._georeference = None
-        self._mask = RectangleMask.full_image(image_endpoint)
+        if create_mask:
+            self._mask = RectangleMask.full_image(image_endpoint)
+        else:
+            self._mask = None
 
     @classmethod
     def from_annotation(cls, annotation: dict[str, Any]) -> "MapSheet":
         """Load the IIIF mapsheet data from its json annotation file"""
         endpoint = annotation["target"]["service"][0]["@id"]
-        self = cls(endpoint)
+        self = cls(endpoint, create_mask=False)
         self.id = annotation["id"]
         self._mask = Mask.from_svg_selector(annotation["target"]["selector"])
         if not annotation["body"]:
