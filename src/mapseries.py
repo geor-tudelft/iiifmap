@@ -3,6 +3,7 @@ import os
 import urllib.parse
 import webbrowser
 
+import logging
 from . import MapSheet
 
 def _get_recursive_filenames(folder_path):
@@ -46,11 +47,14 @@ class MapSeries:
 
         self = cls()
         for root, fn in files:
+
             if not fn.endswith(".json"):
+                logging.debug(f"Skipping file {fn}")
                 continue
 
             fp = os.path.join(root, fn)
             with open(fp, "r") as f:
+                logging.debug(f"Adding annotationpage {fn} to mapseries.")
                 content = f.read()
 
             sheet = MapSheet.from_annotationpage(content)
