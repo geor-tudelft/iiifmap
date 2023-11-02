@@ -3,6 +3,7 @@ from typing import Dict, List
 from numpy.linalg import lstsq
 import numpy as np
 
+
 class ControlPoint:
     pixel_coordinate: PixelCoordinate
     wgs84_coordinate: Wgs84Coordinate
@@ -25,7 +26,7 @@ class ControlPoint:
             },
             "geometry": {
                 "type": "Point",
-                "coordinates": [self.wgs84_coordinate.lat, self.wgs84_coordinate.lon]
+                "coordinates": [self.wgs84_coordinate.lon, self.wgs84_coordinate.lat]
             }
         }
 

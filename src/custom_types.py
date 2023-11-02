@@ -17,3 +17,4 @@ class Wgs84Coordinate:
     lat: float
     lon: float
 
+
