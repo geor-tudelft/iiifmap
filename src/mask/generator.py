@@ -216,9 +216,9 @@ class MaskGenerator:
         assert len(hor_indices) == 2, f"Crop lines cannot be detected"
         image = image[ver_indices[0]:ver_indices[-1], hor_indices[0]:hor_indices[-1]]
         corners = [(ver_indices[0], hor_indices[0]),
-                   (ver_indices[0], hor_indices[1]),
+                   (ver_indices[1], hor_indices[0]),
                    (ver_indices[1], hor_indices[1]),
-                   (ver_indices[1], hor_indices[0]),]
+                   (ver_indices[0], hor_indices[1])]
 
         corners_pixel = [PixelCoordinate(*coordinate) for coordinate in corners]
         print("Horizontal", hor_indices)
