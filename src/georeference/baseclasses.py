@@ -4,8 +4,8 @@ from numpy.linalg import lstsq
 import numpy as np
 
 class ControlPoint:
-    pixel_coordinate = PixelCoordinate
-    wgs84_coordinate = Wgs84Coordinate
+    pixel_coordinate: PixelCoordinate
+    wgs84_coordinate: Wgs84Coordinate
 
     def __init__(self, pixel_coordinate: PixelCoordinate, wgs84_coordinate: Wgs84Coordinate):
         self.pixel_coordinate = pixel_coordinate
