@@ -1,9 +1,13 @@
+import logging
+
 import geojson
 
 from src import mapseries
 from src.custom_types import Wgs84Coordinate
 from src.georeference.baseclasses import ControlPoint, Georeference
+from logger_config import setup_logging
 
+setup_logging("wp3.log")
 
 # class CoordinateArray:
 #     _coordinates: list["Wgs84Coordinate"]
@@ -33,16 +37,17 @@ d_tmk_neat_combined = r"C:\Users\ribar\Documents\TU\Synthesis\iiifmap\project\re
 
 directory = d_bonnebladen
 target_directory = "results_wp3/bonnebladen/"
+OUTPUT_NAME = "FULL_tmk_neat_combined"
 
 mapseries = mapseries.MapSeries.from_annotationpage_folder(directory)
 sheets = mapseries.mapsheets
 for sheet in sheets:
     sheetn = sheet.metadata["sheet"]
     # pixelcoord
-    tl = sheet._mask.top_left
-    tr = sheet._mask.top_right
-    bl = sheet._mask.bottom_left
-    br = sheet._mask.bottom_right
+    tl = sheet._mask.bottom_left
+    tr = sheet._mask.bottom_right
+    bl = sheet._mask.top_left
+    br = sheet._mask.top_right
 
     if directory == d_bonnebladen:
         coordsource = r"C:\Users\ribar\Documents\TU\Synthesis\iiifmap\project\phase1\results_wp1\WGS84coordsBBlad.geojson"
@@ -64,7 +69,7 @@ for sheet in sheets:
         c = Wgs84Coordinate(coordinates[2][1], coordinates[2][0])
         d = Wgs84Coordinate(coordinates[3][1], coordinates[3][0])
 
-        gcps = [ControlPoint(tl, a), ControlPoint(tr, b), ControlPoint(bl, c), ControlPoint(br, d)]
+        gcps = [ControlPoint(tl, a), ControlPoint(tr, b), ControlPoint(br, c), ControlPoint(bl, d)]
 
         georeference = Georeference(gcps)
 
@@ -74,5 +79,8 @@ for sheet in sheets:
 
     else:
         print(sheet.id + " for this sheet " + str(sheetn) + " and " + str(sheetnumber) + " do not match")
+
+with open(target_directory+OUTPUT_NAME+".json", 'w') as f:
+    f.write(mapseries.to_annotationpage())
 
 print("directory used: "+ directory + " coordinate source used: " + coordsource + "annotations placed in" + target_directory)
