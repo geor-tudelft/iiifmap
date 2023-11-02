@@ -218,6 +218,7 @@ class MapSheet:
         self, region: str, resolution: str, rotation: Union[int, str]
     ) -> "Cv2Image":
         """Private function to prevent duplicate code."""
+        logging.debug(f"Downloading image from sheet {self.id} with {region=}, {resolution=} and {rotation=}.")
         url = f"{self._image_endpoint}/{region}/{resolution}/{rotation}/default.jpg"
         response = requests.get(url)
         if response.status_code == 200:  # OK
