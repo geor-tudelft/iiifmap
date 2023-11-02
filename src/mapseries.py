@@ -62,6 +62,15 @@ class MapSeries:
 
         return self
 
+    @classmethod
+    def from_annotationpage(cls, annotationpage: str) -> "MapSeries":
+        self = cls()
+        annotations = json.loads(annotationpage)["items"]
+        for annotation in annotations:
+            self.mapsheets.append(MapSheet.from_annotation(annotation))
+
+        return self
+
     def to_annotationpage(self, indent=4) -> str:
         annotationpage = {
             "type": "AnnotationPage",
