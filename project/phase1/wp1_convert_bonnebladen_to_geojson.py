@@ -102,8 +102,8 @@ def bonnecoords(col, row):
     ay = (origin[1] - row) * dy
     a = (ax, ay)
     b = (ax + dx, ay)
-    c = (ax, ay - dy)
-    d = (ax + dx, ay - dy)
+    c = (ax + dx, ay - dy)
+    d = (ax, ay - dy)
     return (a,b,c,d)
 
 
