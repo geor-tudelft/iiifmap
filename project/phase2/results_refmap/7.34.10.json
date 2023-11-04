@@ -1,0 +1,209 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+        {
+            "id": "7.34.10",
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                "http://geojson.org/geojson-ld/geojson-context.jsonld",
+                "http://iiif.io/api/presentation/3/context.json"
+            ],
+            "type": "Annotation",
+            "motivation": "georeferencing",
+            "target": {
+                "type": "Image",
+                "source": "https://service.archief.nl/iip/8b/5a/5a/8e/63/fb/49/68/85/4b/a8/9c/d9/0b/ea/31/0a0347ca-971e-419e-91b8-dcdc3f6b58e8.jp2/full/full/0/default.jpg",
+                "selector": {
+                    "type": "SvgSelector",
+                    "value": "<svg width=\"3217\" height=\"1752\"><polygon points=\"0,0 0,1752 3217,1752 3217,0\" /></svg>"
+                },
+                "service": [
+                    {
+                        "@id": "https://service.archief.nl/iip/8b/5a/5a/8e/63/fb/49/68/85/4b/a8/9c/d9/0b/ea/31/0a0347ca-971e-419e-91b8-dcdc3f6b58e8.jp2",
+                        "type": "ImageService2"
+                    }
+                ]
+            },
+            "body": {
+                "type": "FeatureCollection",
+                "transformation": {
+                    "type": "polynomial",
+                    "options": {
+                        "order": 1
+                    }
+                },
+                "features": [
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2151.96044921875,
+                                985.27197265625
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.679622088584259,
+                                51.911277642231155
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2580.547119140625,
+                                283.1109924316406
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.584781062317619,
+                                51.912392695364964
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2625.069091796875,
+                                277.0906677246094
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.584781062317619,
+                                51.912392695364964
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                1219.000244140625,
+                                211.1201629638672
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.550989461718421,
+                                51.91095333267648
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2466.222412109375,
+                                241.3949737548828
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.57593195475882,
+                                51.913691698800314
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2576.055908203125,
+                                273.03082275390625
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.584781062317619,
+                                51.912392695364964
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2642.12109375,
+                                267.4855651855469
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.579588319188494,
+                                51.911765896296785
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2465.8251953125,
+                                325.9294738769531
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.584781062317619,
+                                51.912392695364964
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2676.09228515625,
+                                219.9595947265625
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.579588319188494,
+                                51.911765896296785
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "pixelCoords": [
+                                2217.47802734375,
+                                269.91436767578125
+                            ]
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                6.571886731596553,
+                                51.914363314761886
+                            ]
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "date": "1846",
+                "handle": "http://hdl.handle.net/10648/4a252c8f-e72c-0dde-e053-09f0900a7d20",
+                "title": "Groenlo",
+                "sheet": 34
+            }
+        }
+    ]
+}
